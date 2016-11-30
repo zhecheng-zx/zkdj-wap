@@ -65,3 +65,4 @@ a:hover, a:link, a:visited{text-decoration:none;}
 .text-center{text-align: center;}
 .text-right{text-align: right;}
 .mt45{margin-top:45px;}
+.overflowHidden{overflow: hidden;}

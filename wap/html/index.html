@@ -348,6 +348,84 @@
                 </div>
             </div>
         </div>
+        <div class="index-con">
+            <div class="shading"></div>
+            <div class="title">
+                <p class="text-center zh-CN">2000+客户</p>
+                <p class="text-center en">Customer</p>
+                <span class="line-bottom"></span>
+            </div>
+            <div class="customer mt45">
+                <div class="layout-box">
+                    <div class="layout-item">
+                        <div class="layout-cell">
+                            <div class="cicon cicon1"></div>
+                            <p class="t">地产10+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon2"></div>
+                            <p class="t">媒体20+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon3"></div>
+                            <p class="t">能源10+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon4"></div>
+                            <p class="t">宣传300+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon5"></div>
+                            <p class="t">公安200+</p>
+                        </div>
+                    </div>
+                    <div class="layout-item">
+                        <div class="layout-cell">
+                            <div class="cicon cicon6"></div>
+                            <p class="t">部委11+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon7"></div>
+                            <p class="t">食药10+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon8"></div>
+                            <p class="t">城管10+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon9"></div>
+                            <p class="t">司法10+</p>
+                        </div>
+                        <div class="layout-cell">
+                            <div class="cicon cicon10"></div>
+                            <p class="t">安全10+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <div class="footer-logo">
+                <img src="../images/footerLogo.png" />
+            </div>
+            <div class="open-link">
+                <div class="circul">
+                    <img src="../images/weixin.png" />
+                </div>
+                <div class="circul">
+                    <img src="../images/weibo.png" />
+                </div>
+                <div class="circul">
+                    <img src="../images/phone.png" />
+                </div>
+                <div class="circul">
+                    <img src="../images/address.png" />
+                </div>
+            </div>
+            <div class="footer-content">
+                Copyright©2007-2016 中科点击（北京）科技有限公司-版权所有 京ICP备11012241-3号
+            </div>
+        </div>
     </div>
 
     <div class="footer">
@@ -435,15 +513,70 @@
     var swiperDynamic4=document.getElementById("swiper-dynamic4");
     var swiperDynamic5=document.getElementById("swiper-dynamic5");
     var swiperDynamic6=document.getElementById("swiper-dynamic6");
-
     Transform(swiperDynamic);
     new AlloyFinger(swiperDynamic,{
         swipe:function(evt){
             if(evt.direction==='Up'){
+                $(".flexBanner").parent().removeClass("active");
                 $(swiperDynamic).parent().addClass("active");
             }
             if(evt.direction==="Down"){
                 $(swiperDynamic).parent().removeClass("active");
+            }
+        }
+    });
+    new AlloyFinger(swiperDynamic2,{
+        swipe:function(evt){
+            if(evt.direction==='Up'){
+                $(".flexBanner").parent().removeClass("active");
+                $(swiperDynamic2).parent().addClass("active");
+            }
+            if(evt.direction==="Down"){
+                $(swiperDynamic2).parent().removeClass("active");
+            }
+        }
+    });
+    new AlloyFinger(swiperDynamic3,{
+        swipe:function(evt){
+            if(evt.direction==='Up'){
+                $(".flexBanner").parent().removeClass("active");
+                $(swiperDynamic3).parent().addClass("active");
+            }
+            if(evt.direction==="Down"){
+                $(swiperDynamic3).parent().removeClass("active");
+            }
+        }
+    });
+    new AlloyFinger(swiperDynamic4,{
+        swipe:function(evt){
+            if(evt.direction==='Up'){
+                $(".flexBanner").parent().removeClass("active");
+                $(swiperDynamic4).parent().addClass("active");
+            }
+            if(evt.direction==="Down"){
+                $(swiperDynamic4).parent().removeClass("active");
+            }
+        }
+    });
+    new AlloyFinger(swiperDynamic5,{
+        swipe:function(evt){
+            if(evt.direction==='Up'){
+                $(".flexBanner").parent().removeClass("active");
+                $(swiperDynamic5).parent().addClass("active");
+            }
+            if(evt.direction==="Down"){
+                $(swiperDynamic5).parent().removeClass("active");
+            }
+        }
+    });
+    new AlloyFinger(swiperDynamic6,{
+        swipe:function(evt){
+            if(evt.direction==='Up'){
+                $(".flexBanner").parent().removeClass("active");
+                $(swiperDynamic6).parent().addClass("active");
+            }
+            if(evt.direction==="Down"){
+                $(swiperDynamic6).parent().removeClass("active");
             }
         }
     });
