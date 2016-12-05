@@ -1,5 +1,5 @@
 @charset "utf-8";
-*{box-sizing:border-box;}
+*{box-sizing:border-box;margin:0;padding: 0}
 html,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul{margin:0;padding:0;}
 html,body{font-family:Helvetica,sans-serif;-webkit-text-size-adjust:none;}
 html {
@@ -51,7 +51,7 @@ button,input,select,textarea,a{outline:0;}
 textarea{resize:none;}
 ul{list-style:none;}
 img{outline:0;border:none;}
-button,input,input[type="submit"]{-webkit-appearance:none;}
+/*button,input,input[type="submit"]{-webkit-appearance:none;}*/
 a{ color:#888888; text-decoration:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
 a:hover, a:link, a:visited{text-decoration:none;}
 .clear{clear:both;}
