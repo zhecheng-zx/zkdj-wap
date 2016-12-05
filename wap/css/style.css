@@ -68,25 +68,6 @@ html,body,.zkdj-page{
 	border:none;
 	
 }
-.ca-get {
-	display:-webkit-flex;
-	display:flex;
-}
-.ca-get label{
-    display: inline-block;
-	width: 72px;
-	height: 24px;
-	line-height: 24px;
-	font-size: 14px;
-	color: #333;
-}
-.ca-get label i{
-	display: inline-block;
-	font-style: normal;
-	padding:0 1% 0 0;
-	color: #ca0000;
-	
-}
 .radiodiv{
 	-webkit-flex:1;
 	flex:1;
@@ -94,46 +75,6 @@ html,body,.zkdj-page{
 }
 .iradio{
 	display: inline-block;
-}
-/*.radiodiv li{
-    float: left;
-    width: 50%;
-    padding-left: 5%;
-}
-.radiodiv li input{
-    width: 10px;
-    height: 10px;
-}
-.radiodiv li label{
-    display: inline;
-	font-size: 14px;
-	color: #333;
-}*/
-.ca-agree{
-    margin-left: 21%;
-	height:27px;
-	line-height: 27px;
-	margin-top: 19px;
-}
-.agree-word{
-	float: left;
-	color:rgba(51,51,51,.6);
-	font-size: 12px;
-	margin-left: 1%;
-}
-.ca-agree input{
-	float: left;
-	width: 12px;
-	height: 12px;
-	margin-top: 7px;
-}
-.agree-word a{
-	color: #ffaa2f;
-	text-decoration: underline;
-}
-.agree-word a:hover{
-	color: #f69912;
-	text-decoration: underline;
 }
 .ca-btn{
 	width: 100%;
@@ -144,7 +85,7 @@ html,body,.zkdj-page{
     color: #fff;
     background: #ffaa2f;
     border:none;
-    margin-bottom: 50px;
+    margin: 20px 0 50px 0;
     font-family: "微软雅黑";
 
 }
@@ -157,7 +98,7 @@ html,body,.zkdj-page{
     color: #fff;
     background: #f69912;
     border:none;
-    margin-bottom: 50px;
+     margin: 20px 0 50px 0;
     font-family: "微软雅黑";
 
 }
@@ -170,6 +111,7 @@ html,body,.zkdj-page{
 	top:40px;
 	color:#ffaa2f;
 	font-size: 11px;
+	display: none;
 }
 
 
@@ -295,31 +237,68 @@ html,body,.zkdj-page{
 }
 
 /*发展历程*/
-.history-contain{
-    height: 1220px;
-    background:pink;
-    position: relative;
-    //transform: rotate(90deg);
-}
-.history-contain ul{
-	border-left:1px solid #ffaa2f;
+
+/*-------------------------------军犬股掌页开始---------------------------------------*/
+#back{
+	background:url(../images/back.png) no-repeat;
+	width: 10px;
+	height: 15px;
+	background-size: cover;
 	position: absolute;
-	left:50%;
-	top:0px;
+	left: 5%;
+	top:0;
+	margin-top: 14px;
+	font-size: 0;
+}
+#back:hover{
+	background: rgba(255,255,255,.5);
+}
+.dp-banner{
+	height: 157px;
+}
+.dp-banner img{
+	width: 100%;
+    height: 158px;
+}
+.dp-content{
+	background: #07090c;
+	padding-bottom: 36px;
+}
+.dp-content dl{
+	border-bottom: 1px solid #132748;
+	
+}
+.dp-content dl dt{
+	display: inline-block;
+	width: 115px;	
+	text-align: center;
+	padding: 15px 10px 15px 10px;
+}
+.dp-content dl dt img{
+    width:72px;
+    margin-bottom:20px; 
+}
+.dp-content dl dd{
+	display: inline-block;
+	border-left: 1px solid #132748;
+	padding:21px 5% 23px 5%;
+}
+.dp-content dl dd h2{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fd9b13;
+	font-weight: normal;
+	font-family: "微软雅黑";
 
 }
-.history-contain ul li{
-	width: 65%;
+.dp-content dl dd ul li a{
+    font-size:13px;
+    color: #fff;
+    line-height: 20px;
 }
-.history-num{
-	font-size: 15px;
-	color:#ffaa2f; 
-}
-.history-top{
-	position: absolute;
-	left:-80%;
-}
-.history-bottom{
-	position: absolute;
-	right: 20%;
+.dp-content dl dd ul li a:hover{
+    font-size:13px;
+    color: rgba(253,155,19,.9);
+    line-height: 20px;
 }
