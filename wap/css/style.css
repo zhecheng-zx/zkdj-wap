@@ -253,37 +253,41 @@ html,body,.zkdj-page{
 #back:hover{
 	background: rgba(255,255,255,.5);
 }
-.dp-banner{
+.dp-banner,.db-banner{
 	height: 157px;
 }
-.dp-banner img{
+.dp-banner img,.db-banner img{
 	width: 100%;
     height: 158px;
 }
-.dp-content{
+.dp-content,.db-content{
 	background: #07090c;
 	padding-bottom: 36px;
 }
-.dp-content dl{
-	border-bottom: 1px solid #132748;
-	
+.dp-content dl,.db-content dl{
+	border-bottom: 1px solid #132748;	
 }
-.dp-content dl dt{
+.dp-content dl dt,.db-content dl dt{
 	display: inline-block;
 	width: 115px;	
 	text-align: center;
 	padding: 15px 10px 15px 10px;
 }
 .dp-content dl dt img{
-    width:72px;
+    width:78px;
     margin-bottom:20px;
 }
-.dp-content dl dd{
+.db-content dl dt img{
+    width: 98px;
+     margin-bottom:20px;
+
+}
+.dp-content dl dd,.db-content dl dd{
 	display: inline-block;
 	border-left: 1px solid #132748;
 	padding:21px 5% 23px 5%;
 }
-.dp-content dl dd h2{
+.dp-content dl dd h2,.db-content dl dd h2{
 	height: 30px;
 	line-height: 30px;
 	font-size: 16px;
@@ -292,12 +296,12 @@ html,body,.zkdj-page{
 	font-family: "微软雅黑";
 
 }
-.dp-content dl dd ul li a{
+.dp-content dl dd ul li a,.db-content dl dd ul li a{
     font-size:13px;
     color: #fff;
     line-height: 20px;
 }
-.dp-content dl dd ul li a:hover{
+.dp-content dl dd ul li a:hover,.db-content dl dd ul li a:hover{
     font-size:13px;
     color: rgba(253,155,19,.9);
     line-height: 20px;
