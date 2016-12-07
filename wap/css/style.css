@@ -238,7 +238,7 @@ html,body,.zkdj-page{
 
 /*发展历程*/
 
-/*-------------------------------军犬股掌页开始---------------------------------------*/
+/*-------------------------------军犬股掌/军犬毒霸/军犬法眼页开始---------------------------------------*/
 #back{
 	background:url(../images/back.png) no-repeat;
 	width: 10px;
@@ -251,23 +251,39 @@ html,body,.zkdj-page{
 	font-size: 0;
 }
 #back:hover{
-	background: rgba(255,255,255,.5);
+	background:url(../images/back.png) no-repeat;
+	width: 10px;
+	height: 15px;
+	background-size: cover;
+	position: absolute;
+	left: 5%;
+	top:0;
+	margin-top: 14px;
+	font-size: 0;
+	background-image: rgba(255,255,255,.5);
 }
-.dp-banner,.db-banner{
+.dp-banner,.db-banner,.dde-banner{
 	height: 157px;
 }
 .dp-banner img,.db-banner img{
 	width: 100%;
     height: 158px;
 }
-.dp-content,.db-content{
+.dde-banner img{
+    width: 100%;
+    height: 157px;
+}
+.dp-content,.db-content,.dde-content{
 	background: #07090c;
 	padding-bottom: 36px;
 }
-.dp-content dl,.db-content dl{
-	border-bottom: 1px solid #132748;	
+.dp-content dl,.db-content dl,.dde-content dl{
+	border-bottom: 1px solid #132748;
+	/*display: flex;
+	display: -webkit-flex;*/
+
 }
-.dp-content dl dt,.db-content dl dt{
+.dp-content dl dt,.db-content dl dt,.dde-content dl dt{
 	display: inline-block;
 	width: 115px;	
 	text-align: center;
@@ -279,15 +295,39 @@ html,body,.zkdj-page{
 }
 .db-content dl dt img{
     width: 98px;
-     margin-bottom:20px;
-
+    margin-bottom:20px;
+}
+.dp-content dl:nth-child(2) dt img{
+    width: 78px;
+     margin-bottom:5px;
+}
+.dde-content dl dt img{
+    width: 88px;
+    margin-bottom:2px;
+}
+.dde-content dl:nth-child(2) dt img{
+    width: 88px;
+    margin-bottom:15px;
+}
+.dde-content dl:last-child dt img{
+    width: 88px;
+    margin-bottom:15px;
 }
 .dp-content dl dd,.db-content dl dd{
 	display: inline-block;
+	width: 62%;
 	border-left: 1px solid #132748;
 	padding:21px 5% 23px 5%;
+	/*-webkit-flex:1;
+	flex:1;*/
 }
-.dp-content dl dd h2,.db-content dl dd h2{
+.dde-content dl dd{
+	display: inline-block;
+	width: 62%;
+	border-left: 1px solid #132748;
+	padding:21px 3% 23px 3%;
+}
+.dp-content dl dd h2,.db-content dl dd h2,.dde-content dl dd h2{
 	height: 30px;
 	line-height: 30px;
 	font-size: 16px;
@@ -296,12 +336,12 @@ html,body,.zkdj-page{
 	font-family: "微软雅黑";
 
 }
-.dp-content dl dd ul li a,.db-content dl dd ul li a{
+.dp-content dl dd ul li a,.db-content dl dd ul li a,.dde-content dl dd ul li a{
     font-size:13px;
     color: #fff;
     line-height: 20px;
 }
-.dp-content dl dd ul li a:hover,.db-content dl dd ul li a:hover{
+.dp-content dl dd ul li a:hover,.db-content dl dd ul li a:hover,.dde-content dl dd ul li a:hover{
     font-size:13px;
     color: rgba(253,155,19,.9);
     line-height: 20px;
