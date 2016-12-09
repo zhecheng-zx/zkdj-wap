@@ -262,10 +262,10 @@ html,body,.zkdj-page{
 	font-size: 0;
 	background-image: rgba(255,255,255,.5);
 }
-.dp-banner,.db-banner,.dde-banner,.er-banner{
+.dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner{
 	height: 157px;
 }
-.dp-banner img,.db-banner img,.er-banner img{
+.dp-banner img,.db-banner img,.er-banner img,.dk-banner img{
 	width: 100%;
     height: 158px;
 }
@@ -406,4 +406,196 @@ html,body,.zkdj-page{
      font-size: 13px;
      color: #fff;
      line-height: 22px;
+}
+
+/*-------------------------------军犬标王页开始---------------------------------------*/
+
+.dk-div{
+	background:#040914;
+	padding:38px 5% 15px 5%;
+}
+.dk-title{
+	text-align: center;
+	position: relative;
+}
+.dk-title h2{
+	height: 28px;
+    font-size: 18px;
+    color: #fff;
+    font-weight:normal;
+    line-height: 28px;
+}
+.dk-title h3{
+	height: 22px;
+    font-size: 14px;
+    color: #26ede6;
+    font-weight:normal;
+    line-height: 22px;
+    font-family:"微软雅黑";
+}
+.dk-line{
+	width:56px;
+	position: absolute;
+	left:50%;
+	margin-left: -28px;
+	border:1px solid #ff9600;
+}
+.dk-menu li{
+	margin-top: 20px;
+
+}
+.dk-menu li:first-child h4 span{
+	display: inline-block;
+    background:url(../images/d5-icon.png) no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    width: 20px;
+    height: 14px;
+    margin-right: 3px;
+}
+.dk-menu li:nth-child(2) h4 span{
+	display: inline-block;
+    background:url(../images/d5-icon.png) no-repeat;
+    background-position: 0 -20px;
+    background-size: cover;
+    width: 20px;
+    height: 14px;
+    margin-right: 3px;
+}
+.dk-menu li:last-child h4 span{
+	display: inline-block;
+    background:url(../images/d5-icon.png) no-repeat;
+    background-position: 0 -38px;
+    background-size: cover;
+    width: 20px;
+    height: 24px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+}
+.dk-menu li h4{
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+}
+.dk-menu li p{
+	line-height: 20px;
+	font-size: 14px;
+	color: #77787a;
+	margin-left: 23px;
+}
+.dk-nav{
+	padding: 12px 5%;
+}
+.dk-nav p{
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.dk-nav p:first-child i{
+	display: inline-block;
+	background:url(../images/d5-icon2.png) no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	width: 16px;
+	height: 15px;
+	margin:0 2px -2px 0;
+}
+.dk-nav p:nth-child(2) i{
+	display: inline-block;
+	background:url(../images/d5-icon2.png) no-repeat;
+	background-position: 0 -18px;
+	background-size: cover;
+	width: 16px;
+	height: 14px;
+	margin:0 2px -2px 0;
+}
+.dk-nav p:last-child i{
+	display: inline-block;
+	background:url(../images/d5-icon2.png) no-repeat;
+	background-position: 0 -35px;
+	background-size: cover;
+	width: 16px;
+	height: 14px;
+	margin:0 2px -4px 0;
+}
+.dk-show{
+	padding: 20px 0;
+}
+.dk-show li{
+	text-align: center;
+	padding: 2px 0;
+}
+.dk-show li b{
+    display: inline-block;
+    width: 12%;
+    height: 20px;
+    padding: 0 1%;
+    //line-height: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    
+}
+.dk-show li b:first-child{
+	 width: 17%;
+}
+.dk-show li small{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+    background:url(../images/d5-2.png) no-repeat;
+    background-size:cover;
+    margin:0 6px;
+}
+.b-orange{
+	 border:1px dashed #ff876c;
+}
+.b-orange:hover{
+	 border:1px solid #ff876c;
+}
+.b-blue{
+	border:1px dashed #00ffff;
+}
+.b-blue:hover{
+	border:1px solid #00ffff;
+}
+.dk-list{
+	padding: 40px 0;
+}
+.dk-list dl{
+	margin: 20px 0;
+
+}
+.dk-list dl dt{
+	display: inline-block;
+	color: #fff;
+	font-size: 15px;
+	background:url(../images/d5-3.png) no-repeat;
+	background-size: 100% 100%;
+	height:22px;
+	line-height: 16px;
+	padding-left: 18px;
+	//vertical-align: middle;
+}
+.dk-list dl dd{
+	display: inline-block;
+	margin-left: 3%;
+}
+.dk-list dl dd p{
+	color: #fff;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: left;
+}
+.dk-list dl:nth-child(2n){
+	text-align: right;
+	margin-right: 6%;
+}
+.dk-list dl:nth-child(2n+1){
+	text-align: left;
+	margin-left: 6%;
 }
