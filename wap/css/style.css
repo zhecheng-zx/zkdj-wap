@@ -742,7 +742,7 @@ html,body,.zkdj-page{
 .dc-icon2{
   	   background-position:0 -86px;
   }
-.dc-list dl dt{
+.dc-list1 dl dt,.dc-list2 dl dt{
 	display: inline-block;
 	width: 55px;
 	height: 55px;
@@ -768,12 +768,12 @@ html,body,.zkdj-page{
 	background-position:0 -106px;
 }
 .dc-all4{
-	background-position:0 -140px;
+	background-position:0 -148px;
 }
 .dc-all5{
-	background-position:0 -40px;
+	background-position:-2px -185px;
 }
-.dc-list dl dd{
+.dc-list1 dl dd{
 	display: inline-block;
 	width:36%;
 	color: #fff;
@@ -782,6 +782,40 @@ html,body,.zkdj-page{
 	margin: 25px 0;
     border-bottom: 1px dashed #fff;
     border-right: 1px dashed #fff;
+    border-color: rgba(255,255,255,.8);
+    transform: skew(-30deg);
+
+}
+.dc-list1{
+    margin-top: 50px;
+}
+.dc-list1 dl{
+	text-align: left;	
+}
+.dc-list1 dl:first-child{
+	margin-left: 16%;
+}
+.dc-list1 dl:nth-child(3){
+	margin-left: 8%;
+}
+.dc-list2 dl{
+	text-align: right;
+}
+.dc-list2 dl:first-child{
+	margin-right: 16%;
+}
+.dc-list2 dl:nth-child(3){
+	margin-right: 8%;
+}
+.dc-list2 dl dd{
+    display: inline-block;
+	width:36%;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 2% 0 0 ;
+	margin: 25px 0;
+    border-top: 1px dashed #fff;
+    border-left: 1px dashed #fff;
     border-color: rgba(255,255,255,.8);
     transform: skew(-30deg);
 }
