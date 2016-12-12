@@ -262,10 +262,10 @@ html,body,.zkdj-page{
 	font-size: 0;
 	background-image: rgba(255,255,255,.5);
 }
-.dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner{
+.dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner{
 	height: 157px;
 }
-.dp-banner img,.db-banner img,.er-banner img,.dk-banner img{
+.dp-banner img,.db-banner img,.er-banner img,.dk-banner img,.dc-banner img{
 	width: 100%;
     height: 158px;
 }
@@ -410,15 +410,15 @@ html,body,.zkdj-page{
 
 /*-------------------------------军犬标王页开始---------------------------------------*/
 
-.dk-div{
+.dk-div,.dc-div{
 	background:#040914;
 	padding:38px 5% 15px 5%;
 }
-.dk-title{
+.dk-title,.dc-title{
 	text-align: center;
 	position: relative;
 }
-.dk-title h2{
+.dk-title h2,.dc-title h2{
 	height: 28px;
     font-size: 18px;
     color: #fff;
@@ -433,7 +433,7 @@ html,body,.zkdj-page{
     line-height: 22px;
     font-family:"微软雅黑";
 }
-.dk-line{
+.dk-line,.dc-line{
 	width:56px;
 	position: absolute;
 	left:50%;
@@ -598,4 +598,190 @@ html,body,.zkdj-page{
 .dk-list dl:nth-child(2n+1){
 	text-align: left;
 	margin-left: 6%;
+}
+/*------------------------------------军犬网评页开始---------------------------------*/
+.dc-nav{
+	padding: 30px 0 0 0;
+}
+.dc-nav ul li{
+	display: inline-block;
+	width: 30%;
+	margin: 15px 1%;
+	text-align: center;
+}
+.dc-nav ul li h2{
+	font-size: 15px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 25px;
+	margin:14px 0 4px 0; 
+}
+.dc-nav ul li a{
+	display:inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 7.5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #ffaa2f;
+    transform: rotate(45deg);
+}
+
+.dc-nav ul li a span{
+    display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 67px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+ }
+ .dc-img{
+ 	  display: inline-block;
+      background: url(../images/d6-icon.png) no-repeat;
+      background-position:0 0;
+      background-size:  74px 198px;
+      width: 30px;
+      height: 24px;
+      transform: rotate(-45deg);
+ }
+ .dc-img1{
+ 	 background-position:2px -28px;
+ }
+ .dc-img2{
+ 	 background-position:2px -60px;
+ }
+ .dc-img3{
+ 	 background-position:2px -88px;
+ }
+ .dc-img4{
+ 	 background-position:4px -115px;
+ }
+ .dc-img5{
+ 	 background-position:4px -141px;
+ }
+ .dc-img6{
+ 	 background-position:2px -172px;
+ }
+ /* .active 点击状态开始*/
+  .dc-nav ul li.active .dc-img{
+  	 background-position:-38px -2px;
+  }
+  .dc-nav ul li.active .dc-img1{
+  	 background-position:-35px -30px;
+  }
+  .dc-nav ul li.active .dc-img2{
+  	 background-position:-35px -60px;
+  }
+  .dc-nav ul li.active .dc-img3{
+  	 background-position:-35px -88px;
+  }
+  .dc-nav ul li.active .dc-img4{
+  	 background-position:-35px -115px;
+  }
+  .dc-nav ul li.active .dc-img5{
+  	 background-position:-35px -141px;
+  }
+  .dc-nav ul li.active .dc-img6{
+  	 background-position:-35px -172px;
+  }
+ .dc-nav ul li.active a span{
+    display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 67px;
+    margin: 0 auto;
+    background-color:#ffaa2f ;
+    text-align: center;
+ }
+ /* .active 点击状态结束*/
+.dc-autoplay{
+	overflow: hidden;
+}
+.swiper-slide{
+ 	width: 42% !important;
+ 	padding: 6px 3%;
+ 	background:#fff;
+ 	border-radius:4px;
+ 	height:184px; 
+ 	border:2px solid transparent;
+ 	margin: 40px 4% 20px 4%;
+ }
+ .swiper-slide.active{
+ 	width: 40%;
+ 	background:#fff;
+ 	border-radius:4px;
+ 	height:184px; 
+ 	border:2px solid #ffaa2f;
+ }
+ .swiper-slide h2{
+ 	height: 28px;
+ 	text-align: center;
+ 	font-size: 15px;
+ 	color: #141414;
+ 	line-height: 28px;
+ }
+ .swiper-slide p{
+ 	font-size: 13px;
+ 	color: #2f2f2f;
+ 	line-height: 18px;
+ }
+ .dc-icon{
+ 	  display: inline-block;
+ 	  margin: 8px 42%;
+      background: url(../images/d6-icon2.png) no-repeat;
+      background-position:0 0;
+      background-size:cover;
+      width: 33px;
+      height: 34px;
+ }
+.dc-icon1{
+  	   background-position:0 -43px;
+  }
+.dc-icon2{
+  	   background-position:0 -86px;
+  }
+.dc-list dl dt{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border:1px dashed #26ede6;
+	border-radius: 50%;
+}
+.dc-all{
+	display: inline-block;
+	margin: 10px;
+	background: url(../images/d6-icon3.png) no-repeat;
+	background-position:0 0;
+	background-size:cover;
+	width: 37px;
+	height: 36px;
+}
+.dc-all1{
+	background-position:0 -40px;
+}
+.dc-all2{
+	background-position:5px -70px;
+}
+.dc-all3{
+	background-position:0 -106px;
+}
+.dc-all4{
+	background-position:0 -140px;
+}
+.dc-all5{
+	background-position:0 -40px;
+}
+.dc-list dl dd{
+	display: inline-block;
+	width:36%;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 0 0 2%;
+	margin: 25px 0;
+    border-bottom: 1px dashed #fff;
+    border-right: 1px dashed #fff;
+    border-color: rgba(255,255,255,.8);
+    transform: skew(-30deg);
 }
