@@ -262,10 +262,10 @@ html,body,.zkdj-page{
 	font-size: 0;
 	background-image: rgba(255,255,255,.5);
 }
-.dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner{
+.dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner,.s-banner{
 	height: 157px;
 }
-.dp-banner img,.db-banner img,.er-banner img,.dk-banner img,.dc-banner img{
+.dp-banner img,.db-banner img,.er-banner img,.dk-banner img,.dc-banner img,.s-banner img{
 	width: 100%;
     height: 158px;
 }
@@ -895,3 +895,270 @@ html,body,.zkdj-page{
 
 
 /*------------------------------------解决方案页开始---------------------------------*/
+.s-title{
+	text-align: center;
+	position: relative;
+	padding-top: 20px;
+}
+.s-title h2{
+	height: 28px;
+    font-size: 18px;
+    color: #12f3c6;
+    font-weight:normal;
+    line-height: 28px;
+}
+.s-title h3{
+	height: 22px;
+    font-size: 14px;
+    color: #26ede6;
+    font-weight:normal;
+    line-height: 22px;
+    font-family:"微软雅黑";
+}
+.s-line{
+	width:36px;
+	position: absolute;
+	left:50%;
+	margin-left: -18px;
+	border:1px solid #12f3c6;
+}
+.new h2{
+  color: #fff;
+}
+.new .s-line{
+  border:1px solid #fff;
+}
+.s-content{
+	font-size: 14px;
+	color: #3f3f3f;
+	padding: 12px 5% 10px 5%;
+	line-height: 21px;
+}
+.s-list{
+	padding: 10px 2% 60px 2%;
+}
+.s-list .s-p {
+	width: 28%;
+	display: inline-block;
+}
+.s-list .s-p p{	
+    height: 33px;
+    font-size: 14px;
+    color: #494949;
+    border: 1px dashed #12f3c6;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 10px;   
+    margin: 15px 1% 0 1%;
+}
+.s-list img{
+	display: inline-block;
+	width: 40%;
+	height:115px;
+}
+.s-idea{
+	width: 100%;
+	background:url(../images/d7-bg.png) no-repeat;
+	background-size: cover;
+}
+.s-saying{
+	color: #fff;
+	font-size: 14px;
+	padding: 12px 5% 10px 5%;
+	line-height: 21px;
+}
+.s-num h4{
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 50px;
+    padding: 0 0 0 5%;
+}
+.s-num p{
+	display: inline-block;
+	width: 48%;
+	height: 35px;
+	text-align: center;
+    padding: 0 0 0 9%;
+}
+.s-num p span{
+	float: left;
+	height: 35px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 35px;
+    padding-left: 3%;
+
+}
+.num1-img{
+	float: left;
+	background: url(../images/d7-logo.png) no-repeat;
+	background-position:0 0;
+	background-size:cover;
+	width: 33px;
+	height: 33px;
+}
+.num1-img1{
+	background-position:0 -38px;
+}
+.num2-img{
+	float: left;
+	background: url(../images/d7-icon.png) no-repeat;
+	background-position:0 0;
+	background-size:cover;
+	width: 24px;
+	height: 22px;
+	margin:8px 0 0 0; 
+}
+.num2-img1{
+	background-position:0 -22px;
+}
+.num2-img2{
+	background-position:0 -50px;
+}
+.num2-img3{
+	background-position:0 -96px;
+}
+.num2-img4{
+	background-position:0 -72px;
+}
+.num2-img5{
+	background-position:0 -118px;
+}
+.s-all p{
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+}
+.s-nav{
+	padding: 30px 0 40px 0;
+}
+.s-nav ul li{
+	display: inline-block;
+	width: 30%;
+	margin: 15px 1%;
+	text-align: center;
+}
+.s-nav ul li h2{
+	font-size: 15px;
+	color: #141414;
+	font-weight: normal;
+	line-height: 25px;
+	margin:14px 0 4px 0; 
+}
+.s-nav ul li a{
+	display:inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 7.5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #00e3e0;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+.s-nav ul li a span{
+    display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 67px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+ }
+ .s-img{
+ 	  display: inline-block;
+      background: url(../images/d7-icon2.png) no-repeat;
+      background-position:-38px -2px;
+      background-size:  75px 361px;
+      width: 30px;
+      height: 29px;
+      transform: rotate(-45deg);
+ }
+ .s-img1{
+ 	 background-position:-35px -40px;
+ }
+ .s-img2{
+ 	 background-position:-37px -78px;
+ 	 width: 33px; 
+ 	 height: 32px;
+ }
+ .s-img3{
+ 	 background-position:-38px -116px;
+ 	 height: 35px;
+ }
+ .s-img4{
+ 	 background-position:-38px -161px;
+ 	 width: 35px;
+ }
+ .s-img5{
+ 	 background-position:-38px -194px;
+ 	 width: 37px;
+ }
+ .s-img6{
+ 	 background-position:-38px -227px;
+ }
+ .s-img7{
+ 	 background-position:-38px -263px;
+ 	 width: 35px;
+ }
+ .s-img8{
+ 	 background-position:-36px -297px;
+ }
+ .s-img9{
+ 	 background-position:-38px -328px;
+ 	 width: 34px;
+ }
+ /* .active 点击状态开始*/
+  .s-nav ul li.active .s-img{
+  	 background-position:0 -2px;
+  }
+  .s-nav ul li.active .s-img1{
+  	 background-position:2px -40px;
+  }
+  .s-nav ul li.active .s-img2{
+  	 background-position:-2px -78px;
+  	  width: 33px; 
+ 	 height: 32px;
+  }
+  .s-nav ul li.active .s-img3{
+  	 background-position:-3px -116px;
+  	 height: 35px;
+  }
+  .s-nav ul li.active .s-img4{
+  	 background-position:-2px -161px;
+  	 width: 35px;
+  }
+  .s-nav ul li.active .s-img5{
+  	 background-position:0 -194px;
+  	 width: 37px;
+  }
+  .s-nav ul li.active .s-img6{
+  	 background-position:0 -227px;
+  }
+   .s-nav ul li.active .s-img7{
+  	 background-position:0 -263px;
+  	  width: 35px;
+  }
+  .s-nav ul li.active .s-img8{
+  	 background-position:0 -297px;
+  }
+  .s-nav ul li.active .s-img9{
+  	 background-position:-2px -328px;
+  	  width: 34px;
+  }
+  .s-nav ul li.active a{
+  	display:inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 7.5px;
+    text-align: center;
+    background-color: #00e3e0;
+    border: 1px solid #00e3e0;
+    border-radius: 50%;
+    transform: rotate(45deg);
+  }
+ /* .active 点击状态结束*/
