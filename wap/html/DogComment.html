@@ -98,7 +98,7 @@
             </div>   
             <div class="dc-autoplay">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide active">
+                    <div class="swiper-slide bg" >
                         <i class="dc-icon"></i>
                         <h2>公共任务</h2>
                         <p>任务信息公开，所有网评员可见，均可参与任务执行</p>  
@@ -154,6 +154,51 @@
                 </dl>
             </div>
         </article>
+        <article class="dc-div">
+            <div class="dc-title">
+                <h2>任务全流程智能化管理</h2>
+                <p class="dc-line"></p>
+            </div>
+            <div class="dc-historyline">
+                <img src="../images/d6-1.png">
+            </div>               
+        </article>
+        <article class="dc-div" style="padding: 38px 0 15px 0;">
+            <div class="dc-title">
+                <h2>数据分析 一目了然</h2>
+                <p class="dc-line"></p>
+            </div>
+            <div class="dc-showlist">
+                <dl>
+                    <dt><i class="dc-listimg"></i></dt>
+                    <dd>
+                        <h3>任务发布统计</h3>
+                        <p>每天任务实时统计周期内发布情况了然于心</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><i class="dc-listimg dc-listimg1"></i></dt>
+                    <dd>
+                        <h3>任务达标统计</h3>
+                        <p>达标与未达标任务对比统计分析，任务量排名清晰呈现</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><i class="dc-listimg dc-listimg2"></i></dt>
+                    <dd>
+                        <h3>站点发布统计</h3>
+                        <p>网评阵地量化分析，载体任务类型分布实时追踪</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><i class="dc-listimg dc-listimg3"></i></dt>
+                    <dd>
+                        <h3>网评员积极度统计</h3>
+                        <p>网评员相应任务积极性量化分析，自动形成考核排名</p>
+                    </dd>
+                </dl>
+            </div>             
+        </article>
     </section>
     <div class="footer">
         <div class="layout-box">
@@ -197,7 +242,7 @@
 <script type="text/javascript">
     $(function(){
         $(".dc-nav>ul").on("click","li",function(){
-            $(this).addClass("active").siblings().removeClass()
+            $(this).addClass("active").siblings().removeClass();
         })
 
         var mySwiper4 = new Swiper(".dc-autoplay", {
@@ -208,6 +253,10 @@
             paginationClickable: true,
             spaceBetween: 1
         });
+        $(".dc-autoplay>.swiper-wrapper").on("click",".swiper-slide",function(){
+            $(this).addClass("bg").siblings().removeClass("bg");
+        })
+
     })
 </script>
 </body>

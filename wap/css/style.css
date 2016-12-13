@@ -708,7 +708,7 @@ html,body,.zkdj-page{
  	border:2px solid transparent;
  	margin: 40px 4% 20px 4%;
  }
- .swiper-slide.active{
+ .swiper-slide.bg{
  	width: 40%;
  	background:#fff;
  	border-radius:4px;
@@ -819,3 +819,79 @@ html,body,.zkdj-page{
     border-color: rgba(255,255,255,.8);
     transform: skew(-30deg);
 }
+.dc-historyline{
+	overflow-x:scroll;
+	padding: 60px 0;
+	background: #07090c;
+}
+.dc-historyline img{
+    opacity: 2;
+    width: 120%;
+	height: 169px;
+}
+.dc-showlist{
+	padding: 40px 0;
+}
+.dc-showlist dl{
+	display: inline-block;
+	padding:20px 0 ;
+	width: 49%;
+	border-bottom: 1px solid #1f170e;
+	border-right: 1px solid #1f170e;
+}
+.dc-showlist dl:nth-child(even){
+	border-right:0;
+}
+.dc-showlist dl:nth-child(odd){
+	padding-left:4%; 
+}
+.dc-showlist dl:nth-child(3),.dc-showlist dl:nth-child(4){
+	border-bottom: 0;
+}
+.dc-showlist dl dt{
+	display: inline-block;
+	float: left;
+	width: 34px;
+	padding: 2px;
+}
+.dc-showlist dl dd{
+	display: inline-block;
+	width: 75%;
+	float: left;
+	padding-left:3%; 
+}
+.dc-showlist dl dd h3{
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
+.dc-showlist dl dd p{
+	width: 84%;
+	font-weight: normal;
+	font-size: 12px;
+	color:rgba(255,255,255,.5);
+	line-height: 16px;
+
+}
+.dc-listimg{
+	display: inline-block;
+	background: url(../images/d6-icon4.png) no-repeat;
+	background-position:0 0;
+	background-size:cover;
+	width: 30px;
+	height: 25px;
+}
+.dc-listimg1{
+   background-position: 0 -69px;
+}
+.dc-listimg2{
+   background-position: 0 -32px;
+}
+.dc-listimg3{
+   background-position: 0 -101px;
+   height: 30px;
+}
+
+
+/*------------------------------------解决方案页开始---------------------------------*/
