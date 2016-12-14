@@ -1162,3 +1162,293 @@ html,body,.zkdj-page{
     transform: rotate(45deg);
   }
  /* .active 点击状态结束*/
+.s-bigdata{
+	background:#0da6ab;
+	padding: 40px 0;
+	text-align: center;
+ }
+.s-datatitle{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.s-datatitle h2{
+	display:inline-block;
+	font-size: 18px;
+	color: #fff;
+	height: 22px;
+	line-height: 22px;
+}
+.s-datatitle span{
+	display:inline-block;
+	font-size: 37px;
+	color: #fff;
+	height: 37px;
+}
+.s-down{
+	text-align: center;
+	margin: 10px 0;
+}
+.s-down img{
+	width: 12px;
+	height: 10px;
+}
+.s-smalltitle{
+	display: block;
+	width:80%;
+	border:2px solid #fff;
+	background:transparent;
+	line-height: 38px;
+	font-size: 14px;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 8px;
+	text-align: left;
+	padding:0 6%;
+}
+.s-bigdata ul{
+	border:1px solid #fff;
+	margin: 24px 5%;
+	padding: 15px 0 25px 0;
+	border-radius: 8px;
+}
+.s-bigdata ul li{
+	display: inline-block;
+	width: 44%;
+	border:2px dashed #fff;
+	margin: 6px 2% 6px 2%;
+	padding: 5px 1%;
+	border-radius: 8px;
+}
+.s-bigdata ul li h3{
+    text-align: left;
+	height: 16px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+.s-bigdata dl dt img{
+    width: 62px;
+    height: 51px;
+    margin: 15px 0 0 0;
+}
+.s-bigdata dl dd{
+   font-size:14px;
+   color: #fff;
+   line-height: 23px;
+   height: 23px;
+}
+.s-next{
+	padding: 10px 0;
+}
+.s-next img{
+	width: 16px;
+	height: 63px;
+}
+.s-imgtxt{
+	padding: 30px 0;
+}
+.s-imgtxt dt{
+	display: inline-block;
+	width: 100px;
+    margin: 0 3%;
+}
+.s-imgtxt dt img{
+	width: 100px !important;
+	height:98px !important;
+	margin-top: 0 !important;
+}
+.s-imgtxt dd{
+	display: inline-block;
+	text-align:left;
+	width: 50%;
+}
+.s-imgtxt dd h4{
+	color: #fff;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 26px;
+}
+.s-imgtxt dd p{
+	color: #fff;
+	font-size: 13px;
+	line-height: 16px;
+}
+.s-dl{
+	text-align: left;
+	margin-left: 10%;
+	padding-left: 5%;
+}
+.s-dl img{
+	width: 239px;
+	height: 110px;
+	margin: 35px 0;
+	text-align: left !important;
+
+}
+.s-txtlist{
+	padding: 14px 0;
+}
+.s-txtlist p{
+	display: inline-block;
+	width: 24%; 
+	border: 1px dashed #fff;
+	padding: 3px 2%;
+	border-radius: 8px;
+	font-size: 14px;
+	color: #fff;
+}	
+.s-txtlist p:last-child{
+	text-align: left !important;
+	padding-left: 5%;
+	width: 50%;
+}
+.s-right{
+	  display: inline-block;
+      background: url(../images/d7-right.png) no-repeat;
+      background-position:0 0;
+      background-size:cover;
+      width: 28px;
+      height: 11px;
+}
+.s-datauser{
+	background: #fff;
+	padding: 40px 0;
+
+}
+.s-datauser h5{
+	font-size: 16px;
+	color: #00dfd8;
+	line-height: 26px;
+	font-weight: normal;
+	text-align: center;
+}
+.s-datauser p{
+	font-size: 15px;
+	color: #373737;
+	line-height: 22px;
+	text-align: center;
+}
+.s-datauser p b{
+	color: #00dfd8;
+	font-weight: normal;
+}
+.s-autoplay{
+	padding: 20px 0;
+	overflow: hidden;
+}
+.s-autoplay .swiper-slide{
+ 	width: 30% !important;
+ 	padding: 12px 3%;
+ 	background:#00b9bf;
+ 	border-radius:8px;
+ 	height:117px; 
+ 	margin: 40px 0.5% 20px 0.5%;
+ 	text-align: center;
+ }
+ .s-autoplay .swiper-slide p{
+ 	height: 30px;
+ 	margin-top: 10px;
+    padding-left: 12%;
+ }
+ .s-autoplay .swiper-slide p b{
+ 	float: left;
+ 	height: 35px;
+ 	line-height: 35px;
+ 	color: #fff;
+ 	font-size: 14px;
+ }
+ .s-autoplay .swiper-slide span{
+ 	display: inline-block;
+ 	font-size: 48px;
+ 	color: #fff;
+ 	margin-top: 10px;
+ }
+ .s-autoplay .s-slideicon{
+ 	  float: left;
+      background: url(../images/d7-logo.png) no-repeat;
+      background-position:0 0;
+      background-size:cover;
+      width: 35px;
+      height: 35px;
+ }
+.s-autoplay .slideicon1{
+      background-position:0 -40px;
+
+ }
+ .s-slideicon2{
+ 	  display: inline-block;
+ 	  background: url(../images/d7-foot.png) no-repeat;
+      background-position:0 0;
+      background-size:cover;
+      width: 37px;
+      height: 40px;
+      margin-top: 10px;
+ }
+.slideicon2{
+ 	  display: inline-block;
+ 	  background: url(../images/d7-foot.png) no-repeat;
+      background-position:0 -40px;
+      background-size:cover;
+      width: 37px;
+      height: 40px;
+      margin-top: 10px;
+ }
+ .s-autoplay .swiper-slide dl dd{
+ 	color: #fff;
+ 	font-size: 14px;
+ }
+ /*.s-circle{
+ 	background:url(../images/d7-3.png) no-repeat ;
+ 	background-position: 0 0;
+ 	background-size: cover;
+ 	width: 258px;
+ 	height: 153px;
+    margin:0 auto;
+ }
+ .s-circle img{
+    height: 110px;
+ 	width: 66px;
+ }*/
+ .s-circle img{
+    height:201px;
+ 	width: 300px;
+ }
+/* 转圈动画*/
+@-webkit-keyframes btnRotate{
+     　 　0%{-webkit-transform:rotate(0deg);}
+    30%{-webkit-transform:rotate(180deg);}
+　　50%{-webkit-transform:rotate(360deg);}
+　  7%{-webkit-transform:rotate(480deg);}
+    100%{-webkit-transform:rotate(560deg);}
+}
+ 
+@-moz-keyframes btnRotate{
+    　 　0%{-moz-transform:rotate(0deg);}
+    30%{-moz-transform:rotate(180deg);}
+　　50%{-moz-transform:rotate(360deg);}
+　  7%{-moz-transform:rotate(480deg);}
+    100%{-moz-transform:rotate(560deg);}
+}
+ 
+@-o-keyframes btnRotate{
+    　 　0%{-o-transform:rotate(0deg);}
+    30%{-o-transform:rotate(180deg);}
+　　50%{-o-transform:rotate(360deg);}
+　  7%{-o-transform:rotate(480deg);}
+    100%{-o-transform:rotate(560deg);}
+}
+@keyframes btnRotate{
+    　0%{transform:rotate(0deg);}
+    30%{transform:rotate(180deg);}
+　　50%{transform:rotate(360deg);}
+　  7%{transform:rotate(480deg);}
+    100%{transform:rotate(560deg);}
+}
+.s-circle img {
+    -webkit-animation: btnRotate 6s linear infinite;
+    -moz-animation: btnRotate 6s linear infinite;
+    -o-animation: btnRotate 6s linear infinite;
+    animation: btnRotate 6s linear infinite;
+}
