@@ -373,7 +373,7 @@ html,body,.zkdj-page{
     margin-bottom:20px;
 }
 .db-content dl dt img{
-    width: 98px;
+    width: 90px;
     margin-bottom:20px;
 }
 .dp-content dl:nth-child(2) dt img{
@@ -470,14 +470,52 @@ html,body,.zkdj-page{
 	font-weight: normal;
 	text-align: center;
 }
+/*自制词云图开始*/
+.er-hotword{
+	padding:0 0 45px 0;
+}
 .er-imagediv{
-	padding: 45px 0;
-	text-align: center;
+	margin: 0 auto;
+	margin-top: 45px;
+	background:url(../images/er-imgbg.png) no-repeat;
+	background-size: cover;
+	width: 212px;
+	height: 211px;
+	padding: 20px 10px 10px 20px;
 }
-.er-imagediv img{
-    width:211px;
-
+.er-imagediv ul li span{
+	display: inline-block;
+	padding: 2%;
 }
+.er-blue{
+	display: inline-block;
+	color: #26ede6;
+	font-size: 12px;
+	margin-right: 2px;
+}
+.er-white{
+	display: inline-block;
+	color: #fff;
+	font-size: 10px;
+	margin-right: 7px;	
+}
+.er-size1{
+    font-size: 18px;
+    margin-left: -9px;
+}
+.er-size2{
+    font-size: 16px;
+    margin-left: 12px;
+}
+.er-size3{
+    font-size: 14px;
+    margin-left: -6px;
+}
+.er-size4{
+    font-size: 13px;
+    margin-right: -6px;
+}
+/*自制词云图结束*/
 .er-content dl dd p{
      font-size: 13px;
      color: #fff;
@@ -854,13 +892,18 @@ html,body,.zkdj-page{
 	width:36%;
 	color: #fff;
 	font-size: 14px;
-	padding: 0 0 0 2%;
+	padding: 4px 0 0 4%;
+	line-height: 20px;
 	margin: 25px 0;
-    border-bottom: 1px dashed #fff;
-    border-right: 1px dashed #fff;
+    background:url(../images/dc-bg1.png) no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    width: 137px;
+    height: 32px;
+   /* border-bottom: 1px dashed #fff;
+    border-right: 1px dashed #fff;*/
     border-color: rgba(255,255,255,.8);
-    transform: skew(-30deg);
-
+    /*transform: skew(-30deg);*/
 }
 .dc-list1{
     margin-top: 50px;
@@ -892,12 +935,19 @@ html,body,.zkdj-page{
 	width:36%;
 	color: #fff;
 	font-size: 14px;
-	padding: 0 2% 0 0 ;
+	padding: 4px 3% 0 0 ;
+	line-height: 20px;
 	margin: 25px 0;
-    border-top: 1px dashed #fff;
+	background:url(../images/dc-bg2.png) no-repeat;
+	background-position: 0 0;
+    background-size: cover;
+    width: 137px;
+    height: 32px;
+    /*border-top: 1px dashed #fff;
     border-left: 1px dashed #fff;
+    transform: skew(-30deg);*/
     border-color: rgba(255,255,255,.8);
-    transform: skew(-30deg);
+    
 }
 .dc-historyline{
 	overflow-x:scroll;
@@ -911,6 +961,8 @@ html,body,.zkdj-page{
 }
 .dc-showlist{
 	padding: 40px 0;
+    animation-duration: 6s !important;
+	animation: infinite;
 }
 .dc-showlist dl{
 	display: inline-block;
@@ -918,6 +970,7 @@ html,body,.zkdj-page{
 	width: 49%;
 	border-bottom: 1px solid #1f170e;
 	border-right: 1px solid #1f170e;
+	
 }
 .dc-showlist dl:nth-child(even){
 	border-right:0;
