@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="../plugin/swiper/animate.min.css" />
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/layout.css" />
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>   
+    <link rel="stylesheet" href="../plugin/animate.css"><!-- 引入动画库 -->
     <!-- 引入css样式结束 -->
 </head>
 <body>
@@ -25,7 +26,7 @@
         <h1>军犬网评</h1>
     </header>
     <section class="main">        
-        <article class="dc-banner">
+        <article class="dc-banner animated pulse">
             <img src="../images/d6.png">
         </article>
         <article class="dc-div">
@@ -116,12 +117,6 @@
                         <h2>原创任务</h2>
                         <p>管理员下达创作要求，网评员根据要求原创内容并执行</p>  
                     </div>
-                   <!--  <div class="swiper-slide">
-                        <i class="dc-icon dc-icon2"></i>
-                        <h2>素材任务</h2>
-                        <p>管理员上传素材或指定内置素材，网评员选取素材执行</p>  
-                    </div> -->
-
                 </div>
             </div>
         </article>
@@ -130,7 +125,7 @@
                 <h2>多维度影响文章权重直接有效</h2>
                 <p class="dc-line"></p>
             </div>   
-            <div class="dc-list1">
+            <div class="dc-list1 animated fadeInLeft">
                 <dl>
                     <dt><span class="dc-all"></span></dt>
                     <dd>影响热度</dd>
@@ -144,7 +139,7 @@
                     <dd>更多</dd>
                 </dl>
           </div>
-          <div class="dc-list2">
+          <div class="dc-list2 animated fadeInRight">
                 <dl>
                     
                     <dd>影响观点</dd>
@@ -264,7 +259,6 @@
         $(".dc-autoplay>.swiper-wrapper").on("click",".swiper-slide",function(){
             $(this).addClass("bg").siblings().removeClass("bg");
         })
-
     })
 </script>
 </body>

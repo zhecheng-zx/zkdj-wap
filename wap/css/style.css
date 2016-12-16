@@ -865,6 +865,10 @@ html,body,.zkdj-page{
 .dc-list1{
     margin-top: 50px;
 }
+.dc-list1,.dc-list2{
+    animation-duration: 3s !important;
+    animation:infinite;
+}
 .dc-list1 dl{
 	text-align: left;	
 }
