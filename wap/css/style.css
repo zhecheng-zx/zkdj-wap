@@ -163,80 +163,156 @@ html,body,.zkdj-page{
    line-height: 20px;
    font-size: 13px;
 }
-.am-history{
-	height: 300px;
-	padding: 7px 0;
-}
-.am-history h2{
-	padding-left: 5%;
-}
 .am-list{
-	height: 380px;
+    padding: 20px 0;
+    margin-top: 10px;
 }
-.am-list dl{
-	float: left;
-	width: 50%;
-	text-align: center;
-	height: 173px;
-	padding:40px 5%;
-}
-.am-list dl dt{
-	height: 92px;
-}
-.am-list dl dt a{
-    display:inline-block;
-    border: 1px solid #ffaa2f;
-    width: 66px;
-    height: 66px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-}
-.am-list dl dd{
-    display: block;
-    width:100%;
-    text-align: center;
-    font-style: normal;
-    color: #ffaa2f;
-}
-.list-item{
+.am-list ul li{
 	display: inline-block;
-	background:url(../images/am-icon.png) no-repeat;
-	background-size:cover;
-	background-position: 0 0;
-	width: 67px;
-	height: 66px;
-	transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
+	width: 45%;
+	margin: 15px 1%;
+	text-align: center;
 }
-.list-item.two{
-	background-position: 0 -102px;
-	width: 67px;
-	height: 36px;
-	margin-left: 16px;
-
+.am-list ul li h2{
+	font-size: 15px;
+	color: #ffaa2f;
+	font-weight: normal;
+	line-height: 25px;
+	margin:14px 0 24px 0; 
 }
-.list-item.three{
-	background-position: 0 -66px;
-	width: 67px;
-	height: 24px;
-	margin-left: 16px;
-
-}
-.list-item.four{
-	background-position: 0 -140px;
-	width: 67px;
-	height: 32px;
-	margin-left: 16px;
-
+.am-list ul li a{
+	display:inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 7.5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #ffaa2f;
+    transform: rotate(45deg);
 }
 
-/*发展历程*/
+.am-list ul li a span{
+    display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 67px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+ }
+ .am-img{
+ 	  display: inline-block;
+      background: url(../images/am-icon.png) no-repeat;
+      background-position:-2px 3px;
+      background-size:  73px 181px;
+      width: 33px;
+      height: 40px;
+      transform: rotate(-45deg);
+ }
+ .am-img1{
+ 	 background-position:1px -46px;
+ }
+ .am-img2{
+ 	 background-position:2px -89px;
+ }
+ .am-img3{
+ 	 background-position:-1px -138px;
+ }
+ /* .active 点击状态开始*/
+ .am-list ul li.active .am-img{
+  	 background-position:-35px 3px;
+  }
+.am-list ul li.active .am-img1{
+  	 background-position:-41px -46px;
+  }
+.am-list ul li.active .am-img2{
+  	 background-position:-40px -90px;
+  }
+.am-list ul li.active .am-img3{
+  	 background-position:-41px -138px;
+  }
+.am-list ul li.active a span{
+    display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 67px;
+    margin: 0 auto;
+    background-color:#ffaa2f ;
+    text-align: center;
+ }
+ /* .active 点击状态结束*/
+
+/*-------------发展历程开始----------------*/
+.am-history .title{
+	font-size: 18px;
+	color:#ffaa2f; 
+	height: 60px;
+	line-height: 60px;
+	padding-left: 7%;
+
+}
+.container5 .zgr {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-image: url("../images/am-hr.png");
+  background-repeat: repeat-x;
+  background-position: 0 135px;
+}
+.container5 .op {
+  width: auto;
+  height: 300px;
+  padding-left: 30px;
+}
+.container5 .op .figure {
+  float: left !important;
+  width: 200px;
+  position: relative;
+  height: 175px;
+}
+.container5 .op .figure .fieldset {
+  width: 200%;
+  position: absolute;
+  left: 0;
+  height: 155px;
+}
+.container5 .op .figure .fieldset .s {
+  float: left !important;
+  font-size: 15px;
+  color: #ffaa2f;
+  margin-top: 11px;
+  font-weight: normal;
+}
+.container5 .op .figure .fieldset .img {
+  float: left !important;
+  margin: 0 5px;
+  width: 11px;
+  height: 115px;
+}
+.container5 .op .figure .fieldset p {
+  text-align: left;
+}
+.container5 .op .figure .fieldset .t {
+  color: #ffaa2f;
+  margin-top: 15px;
+  font-size: 13px;
+  line-height: 19px;
+  height: 19px;
+}
+.container5 .op .figure .fieldset .c {
+  color: #505050;
+  font-size: 14px;
+  line-height: 18px;
+}
+.container5 .op .figure.top .fieldset {
+  bottom: -11px;
+}
+.container5 .op .figure.bottom .fieldset {
+  top: 131px;
+}
+/*-------------发展历程结束----------------*/
+
 
 /*-------------------------------军犬股掌/军犬毒霸/军犬法眼/企业内参页开始---------------------------------------*/
 #back{
