@@ -18,6 +18,7 @@
 .index-header .logo img{
     width:72px;
     height:17px;
+    margin-top: 14px;
 }
 .index-header .login-box{
     position: absolute;
@@ -26,6 +27,7 @@
 .index-header .login-box img{
     width:16px;
     height:18px;
+    margin-top: 12px;
 }
 .footer{
     padding-top: 8px;
@@ -140,6 +142,10 @@
     background-position: -281px 0;
 }
 .footer .active span{color:#ffaa2f;}
+.footer-logo img{
+    width:102px;
+    height:27px;
+}
 /*布局*/
 .layout-box{display: table;width:100%;margin-bottom: 10px;}
 .layout-item{display: table-row;}
