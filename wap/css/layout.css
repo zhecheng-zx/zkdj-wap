@@ -223,13 +223,12 @@
 .swiper-dynamic .swiper-slide .dynamic-img{width: 100%;height:190px;}
 .swiper-dynamic .swiper-slide .flexBanner{
     height:83px;
-    padding:10px 8px;
+    padding:16px 7%;
     background-color: #ffffff;
-    text-align: center;
 }
-.swiper-dynamic .swiper-slide .flexBanner .banner-title{font-size:14px;color:#333333;}
+.swiper-dynamic .swiper-slide .flexBanner .banner-title{font-size:14px;color:#333333;text-align: center;margin-top: 16px;}
 .swiper-dynamic .swiper-slide .flexBanner .banner-content{display:none;font-size:13px;color:#ffffff;}
-.swiper-dynamic .swiper-slide .flexBanner .banner-time{font-size: 6px;color:#606060;}
+.swiper-dynamic .swiper-slide .flexBanner .banner-time{font-size: 6px;color:#606060;text-align: center;line-height: 20px;}
 .swiper-dynamic .active .dynamic-img{height:115px;}
 .swiper-dynamic .active .flexBanner {height:160px;background-color: #26ede6;}
 .swiper-dynamic .active .flexBanner .banner-content{display: block;}

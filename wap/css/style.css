@@ -340,6 +340,12 @@ html,body,.zkdj-page{
 }
 .dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner,.s-banner{
 	height: 157px;
+/*------banner动画延迟------*/
+	/*animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	-ms-animation-delay: 2s;*/
 }
 .dp-banner img,.db-banner img,.er-banner img,.dk-banner img,.dc-banner img,.s-banner img{
 	width: 100%;
@@ -958,7 +964,7 @@ html,body,.zkdj-page{
 }
 .dc-historyline{
 	overflow-x:scroll;
-	padding: 60px 0;
+	padding: 70px 0 60px 0;
 	background: #07090c;
 }
 .dc-historyline img{
@@ -1008,7 +1014,7 @@ html,body,.zkdj-page{
 	line-height: 22px;
 }
 .dc-showlist dl dd p{
-	width: 84%;
+	width: 86%;
 	font-weight: normal;
 	font-size: 12px;
 	color:rgba(255,255,255,.5);
@@ -1032,6 +1038,81 @@ html,body,.zkdj-page{
 .dc-listimg3{
    background-position: 0 -101px;
    height: 30px;
+}
+/*任务智能化管理*/
+.dc-historyline{
+	width:100%;
+	margin:0 auto;
+}
+.dc-historydiv{
+	background: url(../images/history.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100% 100%;
+	width:560px;
+	height: 200px;
+	margin:0 auto;
+	position: relative;
+}
+.history-img{
+	font-size:10px;
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	position: absolute;
+}
+.dc-history{
+	position: absolute;
+}
+.dc-history:first-child{
+    left:12%;
+    top:0;
+}
+.dc-history:nth-child(2){
+    left:32%;
+    bottom:0;
+}
+.dc-history:nth-child(3){
+    left:51%;
+    top:0;
+}
+.dc-history:nth-child(4){
+    left:72%;
+    bottom:0;
+}
+.dc-history:nth-child(5){
+    left:75%;
+    top:0;
+}
+.dc-history:first-child .history-img{
+    left:-20%;
+    top:92px;
+}
+.dc-history:nth-child(2) .history-img{
+    left:-20%;
+    bottom:96px;
+}
+.dc-history:nth-child(3) .history-img{
+    left:-20%;
+    top:92px;
+}
+.dc-history:nth-child(4) .history-img{
+    left:-20%;
+    bottom:96px;
+}
+.dc-history:nth-child(5) .history-img{
+    left:102%;
+    top:92px;
+}
+.history-text h3{
+	font-size: 14px;
+	color:#fff;
+	font-weight: normal;
+	line-height: 16px;
+}
+.history-text p{
+	font-size: 12px;
+	color:rgba(255,255,255,.5);
+	line-height: 14px;
 }
 
 
@@ -1557,7 +1638,7 @@ html,body,.zkdj-page{
  	width: 300px;
  }
 /* 转圈动画*/
-@-webkit-keyframes btnRotate{
+/*@-webkit-keyframes btnRotate{
      　 　0%{-webkit-transform:rotate(0deg);}
     30%{-webkit-transform:rotate(180deg);}
 　　50%{-webkit-transform:rotate(360deg);}
@@ -1592,4 +1673,4 @@ html,body,.zkdj-page{
     -moz-animation: btnRotate 6s linear infinite;
     -o-animation: btnRotate 6s linear infinite;
     animation: btnRotate 6s linear infinite;
-}
+}*/

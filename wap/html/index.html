@@ -261,7 +261,7 @@
             </div>
             <div class="swiper-dynamic mt45">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide active">
                         <img data-src="../images/dynamic1.png" class="dynamic-img swiper-lazy" />
                         <div id="swiper-dynamic1" class="flexBanner">
                             <p class="banner-title">做数据行业专家</p>
@@ -483,7 +483,7 @@
             spaceBetween: 1
         });
     });
-    var swiperDynamic=document.getElementById("swiper-dynamic1");
+    /*var swiperDynamic=document.getElementById("swiper-dynamic1");
     var swiperDynamic2=document.getElementById("swiper-dynamic2");
     var swiperDynamic3=document.getElementById("swiper-dynamic3");
     var swiperDynamic4=document.getElementById("swiper-dynamic4");
@@ -555,7 +555,12 @@
                 $(swiperDynamic6).parent().removeClass("active");
             }
         }
-    });
+    });*/
+    $(".swiper-dynamic").on("touchend",".swiper-slide",function(e){
+            $(this).addClass("active").siblings().removeClass("active");
+            e.preventDefault();           
+    })
+
 </script>
 </body>
 </html>
