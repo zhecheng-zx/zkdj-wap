@@ -144,6 +144,7 @@ html,body,.zkdj-page{
 	line-height: 22px;
 }
 .am-sir{
+	/*height: 780px;*/
 	background: url(../images/am-sir3.png) no-repeat;
 	background-size: 100% 100%;
 	padding: 295px 4% 60px 4%;
@@ -913,17 +914,14 @@ html,body,.zkdj-page{
     background-size: cover;
     width: 137px;
     height: 32px;
-   /* border-bottom: 1px dashed #fff;
-    border-right: 1px dashed #fff;*/
     border-color: rgba(255,255,255,.8);
-    /*transform: skew(-30deg);*/
 }
 .dc-list1{
     margin-top: 50px;
 }
 .dc-list1,.dc-list2{
     animation-duration: 3s !important;
-    animation:infinite;
+    /*animation:infinite;*/
 }
 .dc-list1 dl{
 	text-align: left;	
@@ -956,9 +954,6 @@ html,body,.zkdj-page{
     background-size: cover;
     width: 137px;
     height: 32px;
-    /*border-top: 1px dashed #fff;
-    border-left: 1px dashed #fff;
-    transform: skew(-30deg);*/
     border-color: rgba(255,255,255,.8);
     
 }
@@ -975,8 +970,6 @@ html,body,.zkdj-page{
 .dc-showlist{
 	padding: 40px 0;
 	animation-delay: 2s;
-  /*  animation-duration: 6s !important;
-	animation: infinite;*/
 }
 .dc-showlist dl{
 	display: inline-block;
@@ -1040,82 +1033,114 @@ html,body,.zkdj-page{
    height: 30px;
 }
 /*任务智能化管理*/
-.dc-historyline{
-	width:100%;
-	margin:0 auto;
-}
-.dc-historydiv{
-	background: url(../images/history.png) no-repeat;
-	background-position: 0 0;
-	background-size: 100% 100%;
-	width:560px;
-	height: 200px;
-	margin:0 auto;
-	position: relative;
-}
-.history-img{
-	font-size:10px;
-	color: #fff;
-	font-style: normal;
-	font-weight: bold;
-	position: absolute;
-}
-.dc-history{
-	position: absolute;
-}
-.dc-history:first-child{
-    left:12%;
-    top:0;
-}
-.dc-history:nth-child(2){
-    left:32%;
-    bottom:0;
-}
-.dc-history:nth-child(3){
-    left:51%;
-    top:0;
-}
-.dc-history:nth-child(4){
-    left:72%;
-    bottom:0;
-}
-.dc-history:nth-child(5){
-    left:75%;
-    top:0;
-}
-.dc-history:first-child .history-img{
-    left:-20%;
-    top:92px;
-}
-.dc-history:nth-child(2) .history-img{
-    left:-20%;
-    bottom:96px;
-}
-.dc-history:nth-child(3) .history-img{
-    left:-20%;
-    top:92px;
-}
-.dc-history:nth-child(4) .history-img{
-    left:-20%;
-    bottom:96px;
-}
-.dc-history:nth-child(5) .history-img{
-    left:102%;
-    top:92px;
-}
 .history-text h3{
 	font-size: 14px;
 	color:#fff;
 	font-weight: normal;
-	line-height: 16px;
+	line-height: 20px;
 }
 .history-text p{
 	font-size: 12px;
 	color:rgba(255,255,255,.5);
 	line-height: 14px;
 }
+.dc-historyline{
+	width: 100%;
+	text-align: center;
+}
+.dc-historydiv{
+	width: 470px;
+	display: inline-block;
+	margin:70px 0;
 
-
+}
+.dc-history{
+	display: inline-block;
+	position: relative;
+}
+.history-img,.img4{
+	display: inline-block;
+	background: url(../images/historybg.png) no-repeat;
+	background-size:176px 63px;
+	background-position: 0 -19px;
+	width: 80px;
+	height: 17px;
+	color: #fff;
+	font-style: normal;
+	font-size: 9px;
+	line-height: 16px;
+	text-align: center;
+	font-weight: normal;
+}
+.img2,.img5{
+	background-position:0 -2px ;
+}
+.img3{
+	background-position:-80px -2px;
+}
+.history-icon{
+	display: inline-block;
+	background: url(../images/historybg.png) no-repeat;
+    background-size:176px 63px;
+    background-position:-53px -38px;
+	width: 28px;
+	height: 25px;
+	position: absolute;
+	left:50%;
+	top:23px;
+	margin-left: -14px;
+}
+.historyicon2{
+	background-position: 0 -38px;
+	width: 16px;
+	height: 25px;
+	top:-30px;
+	margin-left: -8px;
+}
+.historyicon3{
+	background-position: -82px -35px;
+	width: 22px;
+	height: 25px;
+	margin-left: -10px;
+}
+.historyicon4{
+	background-position: -18px -38px;
+	width: 20px;
+	height: 25px;
+	margin-left: -10px;
+	top:-30px;
+}
+.historyicon5{
+	background-position: -36px -38px;
+	width: 18px;
+	height: 25px;
+	margin-left: -9px;
+}
+.history-text{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left:59%;
+	top:-80px;
+	text-align: left;
+}
+.text2{
+	top:50px;
+}
+.historyline-top,.historyline-bottom{
+	background: url(../images/historybg.png) no-repeat;
+	background-size:176px 63px;
+    background-position:-165px 0px;
+	width:9px;
+	height: 80px;
+	position: absolute;
+	left:45%;
+	top:-70px;
+}
+.historyline-bottom{
+    background-position:-159px 0px;
+	top:28px;
+}
 /*------------------------------------解决方案页开始---------------------------------*/
 .s-title{
 	text-align: center;
@@ -1621,56 +1646,7 @@ html,body,.zkdj-page{
  	color: #fff;
  	font-size: 14px;
  }
- /*.s-circle{
- 	background:url(../images/d7-3.png) no-repeat ;
- 	background-position: 0 0;
- 	background-size: cover;
- 	width: 258px;
- 	height: 153px;
-    margin:0 auto;
- }
- .s-circle img{
-    height: 110px;
- 	width: 66px;
- }*/
  .s-circle img{
     height:201px;
  	width: 300px;
  }
-/* 转圈动画*/
-/*@-webkit-keyframes btnRotate{
-     　 　0%{-webkit-transform:rotate(0deg);}
-    30%{-webkit-transform:rotate(180deg);}
-　　50%{-webkit-transform:rotate(360deg);}
-　  7%{-webkit-transform:rotate(480deg);}
-    100%{-webkit-transform:rotate(560deg);}
-}
- 
-@-moz-keyframes btnRotate{
-    　 　0%{-moz-transform:rotate(0deg);}
-    30%{-moz-transform:rotate(180deg);}
-　　50%{-moz-transform:rotate(360deg);}
-　  7%{-moz-transform:rotate(480deg);}
-    100%{-moz-transform:rotate(560deg);}
-}
- 
-@-o-keyframes btnRotate{
-    　 　0%{-o-transform:rotate(0deg);}
-    30%{-o-transform:rotate(180deg);}
-　　50%{-o-transform:rotate(360deg);}
-　  7%{-o-transform:rotate(480deg);}
-    100%{-o-transform:rotate(560deg);}
-}
-@keyframes btnRotate{
-    　0%{transform:rotate(0deg);}
-    30%{transform:rotate(180deg);}
-　　50%{transform:rotate(360deg);}
-　  7%{transform:rotate(480deg);}
-    100%{transform:rotate(560deg);}
-}
-.s-circle img {
-    -webkit-animation: btnRotate 6s linear infinite;
-    -moz-animation: btnRotate 6s linear infinite;
-    -o-animation: btnRotate 6s linear infinite;
-    animation: btnRotate 6s linear infinite;
-}*/

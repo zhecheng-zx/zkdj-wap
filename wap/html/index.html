@@ -140,7 +140,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>               
                     <div class="swiper-slide">
                         <div class="layout-box col-3 mt45">
                             <div class="layout-item">
@@ -163,9 +163,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- 如果需要分页器 -->
-                <div class="swiper-pagination"></div>
+            <!--     <div class="swiper-pagination"></div> -->
             </div>
+            
         </div>
         <div class="index-con">
             <div class="shading"></div>
@@ -210,21 +210,21 @@
                 <p class="text-center en">BIG DATA solution</p>
                 <span class="line-bottom"></span>
             </div>
-            <div class="layout-box layout-row mt45">
-                <div class="layout-item">
+            <div class="layout-box layout-row mt45" id="solutiondiv" >
+                <a  href="Solution.html" class="layout-item s1">
                     <div class="layout-cell">
-                        <a href="Solution.html" class="item">
+                        <div class="item">
                             <span class="">
                                 <img src="../images/icon-col-1.png" />
                             </span>
-                        </a>
+                        </div>
                     </div>
                     <div class="layout-cell">
                         <p class="firstTitle">大数据资产</p>
                         <p class="secTitle">公司具有9年互联网数据挖掘和积累，拥有1000亿+内容数据和用户行为画像数据资产。拥有贵阳、东莞和潍坊3个数据基地，总计60多名专职数据工程师，承建过100多个大型数据项目。</p>
                     </div>
-                </div>
-                <div class="layout-item">
+                </a>
+                <div class="layout-item s1">
                     <div class="layout-cell">
                         <a href="Solution.html" class="item">
                             <span class="">
@@ -237,7 +237,7 @@
                         <p class="secTitle">自主研发的4大采集系统，具有泛网络级(B/S)数据采集能力，可采集国内外文本数据和半公开数据，以及少数民族语言采集。拥有强大的NLP分析及独家遗忘算法语义分析技术，能够高并发处理海量数据及数据检索。</p>
                     </div>
                 </div>
-                <div class="layout-item">
+                <div class="layout-item s1">
                     <div class="layout-cell">
                         <a href="Solution.html" class="item">
                             <span class="">
@@ -444,23 +444,42 @@
 <script src="../plugin/swiper/swiper.animate.min.js"></script>
 <script>
     $(function(){
+       /* $(".s1").on("click",function(){
+            alert(1)
+            console.log(1)
+            $(this).location.href = "Solution.html";
+        })*/
         $(".footer .layout-cell a").on("click",function(){
             $(this).addClass("active").parent().siblings().children().removeClass("active");
         });
         var mySwiper = new Swiper ('.sw-box', {
+           /* autoplay:3000,
+            effect : 'cube',
+            cube: {
+              slideShadows: true,
+              shadow: true,
+              shadowOffset: 100,
+              shadowScale: 0.6
+            }*/
             pagination: '.swiper-pagination',
             lazyLoadingInPrevNext : true,
             lazyLoadingInPrevNextAmount : 1,
             autoplay : 3000,
             speed:300
+           
         });
         var mySwiper1 = new Swiper ('.sw-box1', {
+            loop:true,
             pagination: '.swiper-pagination',
             lazyLoadingInPrevNext : true,
             lazyLoadingInPrevNextAmount : 1,
             speed:300
         });
         var mySwiper3 = new Swiper(".swiper-huishu", {
+            loop : true,
+            autoplay : 2000,
+            autoplayDisableOnInteraction : false,
+            initialSlide:1,
             lazyLoading:true,
             lazyLoadingInPrevNext : true,
             lazyLoadingInPrevNextAmount : 1,
@@ -483,83 +502,11 @@
             spaceBetween: 1
         });
     });
-    /*var swiperDynamic=document.getElementById("swiper-dynamic1");
-    var swiperDynamic2=document.getElementById("swiper-dynamic2");
-    var swiperDynamic3=document.getElementById("swiper-dynamic3");
-    var swiperDynamic4=document.getElementById("swiper-dynamic4");
-    var swiperDynamic5=document.getElementById("swiper-dynamic5");
-    var swiperDynamic6=document.getElementById("swiper-dynamic6");
-    Transform(swiperDynamic);
-    new AlloyFinger(swiperDynamic,{
-        swipe:function(evt){
-            if(evt.direction==='Up'){
-                $(".flexBanner").parent().removeClass("active");
-                $(swiperDynamic).parent().addClass("active");
-            }
-            if(evt.direction==="Down"){
-                $(swiperDynamic).parent().removeClass("active");
-            }
-        }
-    });
-    new AlloyFinger(swiperDynamic2,{
-        swipe:function(evt){
-            if(evt.direction==='Up'){
-                $(".flexBanner").parent().removeClass("active");
-                $(swiperDynamic2).parent().addClass("active");
-            }
-            if(evt.direction==="Down"){
-                $(swiperDynamic2).parent().removeClass("active");
-            }
-        }
-    });
-    new AlloyFinger(swiperDynamic3,{
-        swipe:function(evt){
-            if(evt.direction==='Up'){
-                $(".flexBanner").parent().removeClass("active");
-                $(swiperDynamic3).parent().addClass("active");
-            }
-            if(evt.direction==="Down"){
-                $(swiperDynamic3).parent().removeClass("active");
-            }
-        }
-    });
-    new AlloyFinger(swiperDynamic4,{
-        swipe:function(evt){
-            if(evt.direction==='Up'){
-                $(".flexBanner").parent().removeClass("active");
-                $(swiperDynamic4).parent().addClass("active");
-            }
-            if(evt.direction==="Down"){
-                $(swiperDynamic4).parent().removeClass("active");
-            }
-        }
-    });
-    new AlloyFinger(swiperDynamic5,{
-        swipe:function(evt){
-            if(evt.direction==='Up'){
-                $(".flexBanner").parent().removeClass("active");
-                $(swiperDynamic5).parent().addClass("active");
-            }
-            if(evt.direction==="Down"){
-                $(swiperDynamic5).parent().removeClass("active");
-            }
-        }
-    });
-    new AlloyFinger(swiperDynamic6,{
-        swipe:function(evt){
-            if(evt.direction==='Up'){
-                $(".flexBanner").parent().removeClass("active");
-                $(swiperDynamic6).parent().addClass("active");
-            }
-            if(evt.direction==="Down"){
-                $(swiperDynamic6).parent().removeClass("active");
-            }
-        }
-    });*/
     $(".swiper-dynamic").on("touchend",".swiper-slide",function(e){
             $(this).addClass("active").siblings().removeClass("active");
             e.preventDefault();           
     })
+     
 
 </script>
 </body>
