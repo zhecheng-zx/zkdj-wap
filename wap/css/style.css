@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,body,.zkdj-page{
 	width: 100%;
 	height: 100%;
@@ -191,6 +192,10 @@ html,body,.zkdj-page{
     background-color: transparent;
     border: 1px solid #ffaa2f;
     transform: rotate(45deg);
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
 }
 
 .am-list ul li a span{
@@ -209,7 +214,11 @@ html,body,.zkdj-page{
       background-size:  73px 181px;
       width: 33px;
       height: 40px;
-      transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
  }
  .am-img1{
  	 background-position:1px -46px;
@@ -371,7 +380,8 @@ html,body,.zkdj-page{
 }
 .dp-content dl dt,.db-content dl dt,.dde-content dl dt,.er-content dl dt{
 	display: inline-block;
-	width: 115px;	
+	/*width: 115px;	*/
+	width:40%;
 	text-align: center;
 	padding: 15px 10px 15px 10px;
 }
@@ -401,11 +411,9 @@ html,body,.zkdj-page{
 }
 .dp-content dl dd,.db-content dl dd{
 	display: inline-block;
-	width: 62%;
+	/*width: 62%;*/
 	border-left: 1px solid #132748;
-	padding:21px 5% 23px 5%;
-	/*-webkit-flex:1;
-	flex:1;*/
+	padding:21px 0% 23px 5%;
 }
 .er-content dl dt img{
     width: 90px;
@@ -417,15 +425,18 @@ html,body,.zkdj-page{
 }
 .dde-content dl dd{
 	display: inline-block;
-	width: 62%;
+	/*width: 62%;*/
 	border-left: 1px solid #132748;
-	padding:21px 3% 23px 3%;
+	padding:21px 0% 23px 3%;
 }
 .er-content dl dd{
     display: inline-block;
-	width: 62%;
+	/*width: 62%;*/
 	border-left: 1px solid #132748;
-	padding:33px 3% 33px 3%;
+	padding:33px 0% 33px 3%;
+}
+.er-content dl dd ul li{
+    width: 120%;
 }
 .dp-content dl dd h2,.db-content dl dd h2,.dde-content dl dd h2,.er-content dl dd h2{
 	height: 30px;
@@ -754,6 +765,11 @@ html,body,.zkdj-page{
     background-color: transparent;
     border: 1px solid #ffaa2f;
     transform: rotate(45deg);
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+
 }
 
 .dc-nav ul li a span{
@@ -772,7 +788,11 @@ html,body,.zkdj-page{
       background-size:  74px 198px;
       width: 30px;
       height: 24px;
-      transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
  }
  .dc-img1{
  	 background-position:2px -28px;
@@ -1305,6 +1325,10 @@ html,body,.zkdj-page{
     border: 1px solid #00e3e0;
     border-radius: 50%;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
 }
 .s-nav ul li a span{
     display: block;
@@ -1323,6 +1347,10 @@ html,body,.zkdj-page{
       width: 30px;
       height: 29px;
       transform: rotate(-45deg);
+     -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
  }
  .s-img1{
  	 background-position:-35px -40px;
@@ -1407,6 +1435,10 @@ html,body,.zkdj-page{
     border: 1px solid #00e3e0;
     border-radius: 50%;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
   }
  /* .active 点击状态结束*/
 .s-bigdata{

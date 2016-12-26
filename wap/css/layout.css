@@ -48,9 +48,6 @@
 }
 .index-content{margin-top: 44px;margin-bottom:49px;background-color: #06070a;}
 .sw-box,.sw-box1{position: relative;overflow: hidden;}
-/*.sw-box1 .swiper-slide{
-    width: 33.3% !important;
-}*/
 .swiper-huishu,.swiper-dynamic{overflow: hidden;}
 .index-content .sw-box{
     height:253px;
@@ -157,8 +154,6 @@
 .layout-cell .item{display: block;width:65px;height:65px;margin:0 auto;padding:7.5px;text-align: center;background-color: transparent;border:1px solid #fff;transform: rotate(45deg);}
 .layout-cell .item img{width:50%;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
 .layout-cell .item span{display: block;width:46px;height:46px;line-height:67px;margin:0 auto;background-color:transparent;text-align: center;}
-.sw-box1 .layout-cell .item{border:1px solid #ffaa2f;}
-.sw-box1 .layout-cell .item span{background-color:#ffaa2f;}
 .layout-row .layout-item .layout-cell:first-child{width:120px;}
 .layout-row .layout-item .layout-cell:last-child{padding-right:40px;}
 .layout-row .layout-cell{padding:21px 0;}
@@ -167,10 +162,105 @@
 .layout-row .layout-cell .item span{line-height: 60px;}
 .layout-row .layout-cell .item:hover,.layout-row .layout-cell .item:focus{border-color:#26ede6;}
 .layout-row .layout-cell .item:hover span,.layout-row .layout-cell .item:focus span{background-color: #26ede6;}
-/*轮播点*/
-.swiper-pagination-bullet{opacity: .5;}
-.swiper-pagination-bullet,.swiper-pagination-bullet-active{background:#ffffff;}
-.swiper-pagination-bullet-active{opacity: 1;}
+/*军犬轮播*/
+.swiper-dogking .swiper-slide{
+     width: 33.3%;
+     height:170px;
+}
+.swiper-dogking .swiper-slide dl{
+    width:100%;
+    text-align: center;
+}
+.swiper-dogking .swiper-slide dl dt{
+     border:1px solid #ffaa2f;
+     display:inline-block;
+     width: 65px;
+     height: 65px;
+     margin: 0 auto;
+     padding: 7.5px;
+     text-align: center;
+     background-color: transparent;
+     border: 1px solid #ffaa2f;
+     transform: rotate(45deg);
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+}
+.swiper-dogking .swiper-slide dl dd{
+    padding:30px 0;
+}
+.swiper-dogking .swiper-slide dl dt span{
+     display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 67px;
+    margin: 0 auto;
+    background-color:#ffaa2f;
+    text-align: center;
+}
+.swiper-dogking .swiper-slide dl dd h2{
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.swiper-dogking .swiper-slide dl dd p{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255,255,255,.3);
+    text-align: center;
+}
+.swiper-dogking .swiper-slide dl dt span .i-bimg{
+      display: inline-block;
+      background: url(../images/i-bimg.png) no-repeat;
+      background-position:-2px -5px;
+      background-size:cover;
+      width: 48px;
+      height: 33px;
+      transform: rotate(-45deg);
+     -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
+ }
+.swiper-dogking .swiper-slide dl dt span .i-bimg.bimg2{
+     background-position:-63px 0px;
+     width: 40px;
+     height: 42px;
+ }
+.swiper-dogking .swiper-slide dl dt span .i-bimg.bimg3{
+     background-position:-107px -2px;
+     width:48px;
+     height: 42px;
+ }
+.swiper-dogking .swiper-slide dl dt span .i-bimg.bimg4{
+     background-position:-157px 1px;
+     width: 40px;
+     height: 42px;
+ }
+.swiper-dogking .swiper-slide dl dt span .i-bimg.bimg5{
+     background-position:-195px 0px;
+     width: 55px;
+     height: 40px;
+ }
+.swiper-dogking .swiper-slide dl dt span .i-bimg.bimg6{
+     background-position:-250px 2px;
+     width: 42px;
+     height: 40px;
+ }
+.swiper-dogking .swiper-slide dl dt span .i-bimg.bimg7{
+     background-position:-308px 3px;
+     width: 38px;
+     height: 41px;
+
+ }
+ .s1{
+
+    width: 100%;
+ }
+ 
 /*慧数轮播*/
 .swiper-huishu {
     width: 100%;
