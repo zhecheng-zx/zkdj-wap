@@ -29,7 +29,7 @@
             <img src="../images/am-banner.png">
         </article>
         <article class="am-companymenu">
-            <h2>公司介绍</h2>
+            <h2 class="am-txt">公司介绍</h2>
             <ul>
                 <li>中科点击（北京）科技有限公司成立于2007年，公司关注于大数据、分行业、大舆情领域。</li>
                 <li>公司在大数据领域中拥有9项技术专利、15项软件产品知识产权、3个著名商标。公司迅速发展成为中国行业大数据应用专家。</li>
@@ -38,7 +38,9 @@
             </ul>
         </article>
         <article class="am-sir">
-            <ul class="sir-menu">
+            <h2 class="am-txt sir">公司创始人</h2>
+            <img id="sir" src="../images/am-sir.png">
+            <ul class="sir-menu wow rotateInDownRight">
                  <li>中科点击创始人兼总裁</li>
                  <li>行业大数据应用专家</li>
                  <li>致力于大数据在各行业的管理及实践应用</li>
@@ -47,8 +49,8 @@
                  <li>曾负责北京奥运会、上海世博会舆情工作</li>
                  <li>中国传媒大学网络舆情专业客座教授</li>
             </ul>
-            <div class="sir-saying">
-                <h2>大数据分行业应用，方显大价值</h2>
+            <div class="sir-saying wow rotateInUpLeft">
+                <h2 class="am-txt">大数据分行业应用，方显大价值</h2>
                 <p>
                   大数据如同每一个新兴的行业，经历了概念期的热炒之后，终将要落地化应用，产生商业价值，为政府 、为企业所用。我们可以预见，大数据应用肯定会细分、细切到行业、专业、产业，应用会精细化到点。
                   大数据如同每一个新兴的行业，经历了概念期的热炒之后，终将要落地化应用，产生商业价值，为政府 、为企业所用。我们可以预见，大数据应用肯定会细分、细切到行业、专业、产业，应用会精细化到点。
@@ -59,7 +61,7 @@
         </article>
         <article class="am-history">
             <div class="lk container5">
-                <p class="title">
+                <p class="title am-txt">
                     企业发展历程
                 </p>
                 <div class="zgr">
@@ -668,7 +670,7 @@
         </article>
         <article class="am-list">
                 <ul>
-                    <li class="active">
+                    <li class="active wow zoomIn">
                          <a href="javascript:void(0);">
                               <span>
                                    <i class="am-img"></i>
@@ -676,7 +678,7 @@
                          </a>
                          <h2>战略</h2>
                     </li>
-                     <li>
+                     <li class="wow zoomIn">
                          <a href="javascript:void(0);">
                               <span>
                                    <i class="am-img am-img1"></i>
@@ -684,7 +686,7 @@
                          </a>
                           <h2>定位</h2>
                     </li>
-                    <li>
+                    <li class="wow zoomIn">
                          <a href="javascript:void(0);">
                               <span>
                                    <i class="am-img am-img2"></i>
@@ -692,7 +694,7 @@
                          </a>
                           <h2>使命</h2>
                     </li>
-                    <li>
+                    <li class="wow zoomIn">
                          <a href="javascript:void(0);">
                               <span>
                                    <i class="am-img am-img3"></i>
@@ -737,6 +739,7 @@
 </div>
 
 <script src="../plugin/zepto.js"></script>
+<script src="../plugin/wow.min.js"></script>
 <!-- <script type="text/javascript" src="../plugin/jquery-3.1.1.min.js"></script> -->
 <script src="../plugin/TouchSlide.1.1.js"></script>
 <script src="../plugin/transformjs/transform.js"></script>
@@ -744,6 +747,14 @@
 <script src="../plugin/swiper/swiper-3.4.0.jquery.min.js"></script>
 <script src="../plugin/swiper/swiper.animate.min.js"></script>
 <script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 80,
+        mobile: true,
+        live: true
+    });
+    wow.init();
     $(function(){
         $(".footer .layout-cell a").on("click",function(){
             $(this).addClass("active").parent().siblings().children().removeClass("active");

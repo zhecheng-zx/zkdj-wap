@@ -26,11 +26,11 @@
         <h1>军犬法眼</h1>
     </header>
     <section class="main">
-        <article class="dde-banner animated pulse">
+        <article class="dde-banner">
             <img src="../images/d3.png">
         </article>
         <article class="dde-content">
-            <dl>
+            <dl class="wow bounceInUp">
                 <dt>
                     <img src="../images/d3-1.png">
                 </dt>
@@ -43,7 +43,7 @@
                     </ul>
                 </dd>
             </dl>
-            <dl>
+            <dl class="wow bounceInDown" data-wow-delay="0.5s">
                 <dt>
                     <img src="../images/d3-2.png">
                 </dt>
@@ -65,7 +65,7 @@
                     </ul>
                 </dd>
             </dl>
-            <dl>
+            <dl class="wow bounceInUp" data-wow-delay="0.7s">
                 <dt>
                     <img src="../images/d3-3.png">
                 </dt>
@@ -78,7 +78,7 @@
                     </ul>
                 </dd>
             </dl>
-            <dl>
+            <dl class="wow bounceInDown " data-wow-delay="0.7s">
                 <dt>
                     <img src="../images/d3-4.png">
                 </dt>
@@ -91,7 +91,7 @@
                     </ul>
                 </dd>
             </dl>
-            <dl>
+            <dl class="wow bounceInUp" data-wow-delay="0.9s">
                 <dt>
                     <img src="../images/d3-5.png">
                 </dt>
@@ -106,10 +106,11 @@
                     </ul>
                 </dd>
             </dl>
+         
         </article>
      
     </section>
-<div class="footer">
+    <div class="footer">
         <div class="layout-box">
             <div class="layout-item">
                 <div class="layout-cell">
@@ -142,11 +143,23 @@
 </div>
 
 <script src="../plugin/zepto.js"></script>
-<!-- <script type="text/javascript" src="../plugin/jquery-3.1.1.min.js"></script> -->
-<script src="../plugin/TouchSlide.1.1.js"></script>
+<script src="../plugin/wow.min.js"></script>
+<!-- <script type="text/javascript" src="../plugin/jquery-3.1.1.min.js"></script>
+ --><script src="../plugin/TouchSlide.1.1.js"></script>
 <script src="../plugin/transformjs/transform.js"></script>
 <script src="../plugin/alloy_finger.js"></script>
 <script src="../plugin/swiper/swiper-3.4.0.jquery.min.js"></script>
 <script src="../plugin/swiper/swiper.animate.min.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 50,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+       
+</script>
 </body>
 </html>

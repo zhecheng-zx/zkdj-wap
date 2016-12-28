@@ -26,7 +26,7 @@
         <h1>军犬标王</h1>
     </header>
     <section class="main">        
-        <article class="dk-banner animated pulse">
+        <article class="dk-banner wow pulse">
             <img src="../images/d5.png">
         </article>
         <article class="dk-div">
@@ -36,15 +36,15 @@
                 <h3>每天更新50000条 + 招投标数据</h3>
             </div>   
             <ul class="dk-menu">
-                <li class="animated flipInY">
+                <li class="wow flipInY">
                     <h4><span></span>海量项目信息检索</h4>
                     <p>每天更新50000+招投标项目信息，涵盖各政府部门、各行业企业机构类型项目</p>
                 </li>
-                <li class="animated flipInX">
+                <li class="wow flipInX">
                     <h4><span></span>实时标讯精准推送</h4>
                     <p>发现重大项目标讯，精准匹配，实时推送到手机、邮件等，随时随地掌握最新项目</p>
                 </li>
-                <li class="animated flipInY">
+                <li class="wow flipInY">
                     <h4><span></span>个性化项目定制</h4>
                     <p>多关键词、多地区、多类型、不同时间信息自由定制</p>
                 </li>
@@ -63,19 +63,19 @@
                 <p><i></i>邮件提醒</p>
             </nav>  
             <ul class="dk-show">
-                <li>
+                <li class="wow zoomIn">
                     <b class="b-orange">拟在建</b><small></small><b class="b-blue">预告</b><small></small><b class="b-orange">公告</b><small></small><b class="b-orange">变更</b><small></small><b class="b-blue">中标</b>
                 </li>
-                <li>
+                <li class="wow zoomIn">
                     <b class="b-orange">拟在建</b><small></small><b class="b-blue">预告</b><small></small><b class="b-orange">公告</b><small></small><b class="b-orange">变更</b><small></small><b class="b-blue">中标</b>
                 </li>
-                <li>
+                <li class="wow zoomIn">
                     <b class="b-orange">拟在建</b><small></small><b class="b-blue">预告</b><small></small><b class="b-orange">公告</b><small></small><b class="b-blue">变更</b><small></small><b class="b-orange">中标</b>
                 </li>
-                 <li>
+                 <li class="wow zoomIn">
                     <b class="b-orange">拟在建</b><small></small><b class="b-blue">预告</b><small></small><b class="b-orange">公告</b><small></small><b class="b-orange">变更</b><small></small><b class="b-orange">中标</b>
                 </li>
-                <li>
+                <li class="wow zoomIn">
                     <b class="b-orange">拟在建</b><small></small><b class="b-blue">预告</b><small></small><b class="b-orange">公告</b><small></small><b class="b-blue">变更</b><small></small><b class="b-orange">中标</b>
                 </li>
             </ul>
@@ -88,15 +88,15 @@
             </div>
             <div class="dk-list">  
                 <dl>
-                    <dt><h5>竞标单位</p></dt>
-                    <dd>
+                    <dt class="wow lightSpeedIn"><h5>竞标单位</p></dt>
+                    <dd class="wow rotateIn">
                         <p>投标公司预测</p>
                         <p>投标公司预测</p>
                     </dd>
                 </dl>
                 <dl>
-                    <dt>采购单位</dt>
-                    <dd>
+                    <dt class="wow lightSpeedIn">采购单位</dt>
+                    <dd  class="wow rotateIn">
                         <p>相关代理机构</p>
                         <p>相关监管机构</p>
                         <p>相关评标机构</p>
@@ -106,16 +106,16 @@
                     </dd>
                 </dl>
                 <dl>
-                    <dt>资讯公司</dt>
-                    <dd>
+                    <dt class="wow lightSpeedIn">资讯公司</dt>
+                    <dd class="wow rotateIn">
                         <p>相关联系人</p>
                         <p>相关采购单位</p>
                         <p>历史资讯项目</p>
                     </dd>
                 </dl>
                 <dl>
-                    <dt>代理机构</dt>
-                    <dd>
+                    <dt class="wow lightSpeedIn">代理机构</dt>
+                    <dd class="wow rotateIn">
                         <p>相关联系人</p>
                         <p>相关采购单位</p>
                         <p>相关投标机构</p>
@@ -123,8 +123,8 @@
                     </dd>
                 </dl>
                 <dl>
-                    <dt>监管机构</dt>
-                    <dd>
+                    <dt class="wow lightSpeedIn">监管机构</dt>
+                    <dd class="wow rotateIn">
                         <p>相关联系人</p>
                         <p>相关采购单位</p>
                         <p>历史监管项目</p>
@@ -167,11 +167,22 @@
 </div>
 
 <script src="../plugin/zepto.js"></script>
+<script src="../plugin/wow.min.js"></script>
 <!-- <script type="text/javascript" src="../plugin/jquery-3.1.1.min.js"></script> -->
 <script src="../plugin/TouchSlide.1.1.js"></script>
 <script src="../plugin/transformjs/transform.js"></script>
 <script src="../plugin/alloy_finger.js"></script>
 <script src="../plugin/swiper/swiper-3.4.0.jquery.min.js"></script>
 <script src="../plugin/swiper/swiper.animate.min.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 60,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
 </body>
 </html>

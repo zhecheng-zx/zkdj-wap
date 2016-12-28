@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html,body,.zkdj-page{
-	width: 100%;
-	height: 100%;
+	width: 100%;f
+	/*height: 100%;*/
 	font-family: "微软雅黑";
 
 }
@@ -78,6 +78,7 @@ html,body,.zkdj-page{
 	display: inline-block;
 }
 .ca-btn{
+	display: inline-block;
 	width: 100%;
 	height: 37px;
 	line-height: 37px;
@@ -129,7 +130,7 @@ html,body,.zkdj-page{
 	background: #fff;
 	padding: 9px 4%;
 }
-.am-companymenu h2,.sir-saying h2,.am-history h2{
+.am-txt{
     height: 30px;
     line-height: 30px;
     width: 100%;
@@ -146,24 +147,33 @@ html,body,.zkdj-page{
 }
 .am-sir{
 	/*height: 780px;*/
-	background: url(../images/am-sir3.png) no-repeat;
+	background: url(../images/am-sirbg.png) no-repeat;
 	background-size: 100% 100%;
-	padding: 295px 4% 60px 4%;
+	padding: 15px 4% 60px 4%;
 	position: relative;
+}
+.sir-saying{
+	padding-top: 80px;
 }
 .sir-saying p{
    color: #fff;
    line-height: 24px;
    font-size: 14px;
 }
+#sir{
+	width: 170px;
+	height: 162px;
+	margin: 20px 0;
+	margin:0 auto; 
+}
 .sir-menu{
 	position: absolute;
-	right: 5%;
+	right: 2%;
 	top:42px;
 	width: 39%;
 	color: #fff;
-   line-height: 20px;
-   font-size: 13px;
+    line-height: 20px;
+    font-size: 13px;
 }
 .am-list{
     padding: 20px 0;

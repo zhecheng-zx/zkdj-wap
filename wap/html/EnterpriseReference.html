@@ -36,22 +36,22 @@
             <h3>企业运营方方面面了然于胸</h3>
             <div class="er-imagediv">
                 <ul>
-                    <li class=" animated zoomInDown">
+                    <li class=" wow zoomInDown">
                         <span class="er-blue er-size1">招聘</span><span class="er-blue er-size2">涉诉</span><span class="er-white">专利</span><span class="er-blue">失信名单</span>
                     </li>
-                    <li class=" animated flip">
+                    <li class="wow flip">
                         <span class="er-blue er-size2">涉法</span><span class="er-white er-size4">商标</span><span class="er-blue">资质</span><span class="er-blue er-size2">获奖</span>
                     </li>
-                    <li class=" animated zoomInDown">
+                    <li class="wow zoomInDown">
                         <span class="er-blue er-size1">股评</span><span class="er-white er-size4">会展</span><span class="er-white">财报</span><span class="er-blue er-size1">上市</span><span class="er-white">人事</span>
                     </li>
-                    <li class=" animated zoomInUp">
+                    <li class="wow zoomInUp">
                         <span class="er-white er-size2">合作</span><span class="er-white er-size1">动态</span><span class="er-blue">媒体</span><span class="er-white">投融资</span>
                     </li>
-                    <li class=" animated flip">
+                    <li class="wow flip">
                         <span class="er-white er-size3">政策法规</span><span class="er-blue">口碑</span><span class="er-white">销售线索</span>
                     </li>
-                    <li class=" animated zoomInUp">
+                    <li class="wow zoomInUp">
                         <span class="er-blue er-size4" style="margin-left: 30px;">招投标</span><span class="er-white er-size1" style="margin-left: 10px;">著作权</span>
                     </li>
                 </ul>
@@ -60,19 +60,19 @@
         <!-- 词云图结束 -->
         <article class="er-content">
             <dl>
-                <dt class="animated zoomInLeft">
+                <dt class="wow zoomInLeft">
                     <img src="../images/d4-2.png">
                 </dt>
-                <dd class="animated rollIn">
+                <dd class="wow rollIn">
                     <h2>告别拍脑门决策时代</h2>
                     <p>管理必须精细化，<br>心中有“数”方能运筹帷幄</p>
                 </dd>
             </dl>
             <dl>
-                <dt class="animated zoomInLeft">
+                <dt class="wow zoomInLeft">
                     <img src="../images/d4-3.png">
                 </dt>
-                <dd class="animated rollIn">
+                <dd class="wow rollIn">
                     <h2>8大监测对象</h2>
                     <p style="padding-bottom: 10px;">知己·知彼·知行业，<br>从数据中来，到数据中去</p>
                    <!--  <ul style="display: inline-block; width: 46%"> -->
@@ -92,30 +92,30 @@
                 </dd>
             </dl>
             <dl>
-                <dt class="animated zoomInLeft">
+                <dt class="wow zoomInLeft">
                     <img src="../images/d4-4.png">
                 </dt>
-                <dd class="animated rollIn">
+                <dd class="wow rollIn">
                     <h2>全景监测</h2>
                     <p>全面覆盖精准数据来源</p>
                     <p>快人一步发现有用价值</p>
                 </dd>
             </dl>
             <dl>
-                <dt class="animated zoomInLeft">
+                <dt class="wow zoomInLeft">
                     <img src="../images/d4-5.png">
                 </dt>
-                <dd class="animated rollIn">
+                <dd class="wow rollIn">
                     <h2>数据订阅</h2>
                     <p>一键设置关注站点</p>
                     <p>快速实时获取数据</p>
                 </dd>
             </dl>
             <dl>
-                <dt class="animated zoomInLeft">
+                <dt class="wow zoomInLeft">
                     <img src="../images/d4-6.png">
                 </dt>
-                <dd class="animated rollIn">
+                <dd class="wow rollIn">
                     <h2>内参日报</h2>
                     <p>每日自动生成数据日报，<br>预览、编辑与下载，<br>自由切换</p>
                 </dd>
@@ -156,11 +156,22 @@
 </div>
 
 <script src="../plugin/zepto.js"></script>
+<script src="../plugin/wow.min.js"></script>
 <!-- <script type="text/javascript" src="../plugin/jquery-3.1.1.min.js"></script> -->
 <script src="../plugin/TouchSlide.1.1.js"></script>
 <script src="../plugin/transformjs/transform.js"></script>
 <script src="../plugin/alloy_finger.js"></script>
 <script src="../plugin/swiper/swiper-3.4.0.jquery.min.js"></script>
 <script src="../plugin/swiper/swiper.animate.min.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 60,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
 </body>
 </html>
