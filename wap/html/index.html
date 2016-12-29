@@ -25,7 +25,7 @@
     <div class="index-content">
         <div class="sw-box">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+               <!--  <div class="swiper-slide">
                     <img src="../images/banner1.png" />
                 </div>
                 <div class="swiper-slide">
@@ -34,6 +34,38 @@
                 <div class="swiper-slide">
                     <img src="../images/banner3.jpg" />
                 </div>
+                <div class="swiper-slide">
+                    <img src="../images/banner3.jpg" />
+                </div> -->
+                <div class="swiper-slide">
+                    <div class="b1">
+                        <img class="pr b1-img wow flip" src="../images/b1-2.png">
+                        <img class="pr txt-img txt-img1 wow bounceInDown" data-wow-delay="0.5s" src="../images/2.png">
+                        <img class="pr txt-img txt-img2 wow bounceInUp" data-wow-delay="0.9s" src="../images/1.png">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="b1 b2">
+                        <img class="pr img1 wow rollIn" data-wow-duration="1.5s" data-wow-delay="6s" src="../images/3.png">
+                        <img class="pr img2 wow zoomInUp" data-wow-duration="1.5s" data-wow-delay="8s"   src="../images/7.png">
+                        <img class="pr img3 wow flipInY" data-wow-delay="7.5s"   src="../images/b2-3.png">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="b1 b3">                      
+                        <img class="pr img4 wow rubberBand" data-wow-delay="14s" src="../images/4.png">
+                        <img class="pr img5 wow zoomIn" data-wow-delay="12s" src="../images/5.png">
+                        <img class="pr img6 wow lightSpeedIn" data-wow-delay="13s"  data-wow-duration="2s" src="../images/b3-2.png">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="b1 b4">                      
+                        <img class="pr img7 wow flash" data-wow-duration="1.5s" data-wow-delay="20s" src="../images/8.png">
+                        <img class="pr img8 wow zoomIn" data-wow-delay="19s" src="../images/9.png">
+                        <img class="pr img9 wow rotateIn" data-wow-delay="19s" src="../images/b4-3.png">
+                    </div>
+                </div>
+
             </div>
             <!-- 如果需要分页器 -->
             <div class="swiper-pagination"></div>
@@ -199,7 +231,7 @@
                 <span class="line-bottom"></span>
             </div>
             <div class="layout-box layout-row mt45" id="solutiondiv" >
-                <div class="layout-item s">
+                <div class="layout-item wow fadeInLeft">
                     <div class="layout-cell">
                          <a href="Solution.html" class="item">
                             <span>
@@ -212,7 +244,7 @@
                         <p class="secTitle">公司具有9年互联网数据挖掘和积累，拥有1000亿+内容数据和用户行为画像数据资产。拥有贵阳、东莞和潍坊3个数据基地，总计60多名专职数据工程师，承建过100多个大型数据项目。</p>
                     </div>
                 </div>
-                <div class="layout-item s">
+                <div class="layout-item wow fadeInRight">
                     <div class="layout-cell">
                         <a href="Solution.html" class="item">
                             <span>
@@ -225,7 +257,7 @@
                         <p class="secTitle">自主研发的4大采集系统，具有泛网络级(B/S)数据采集能力，可采集国内外文本数据和半公开数据，以及少数民族语言采集。拥有强大的NLP分析及独家遗忘算法语义分析技术，能够高并发处理海量数据及数据检索。</p>
                     </div>
                 </div>
-                <div class="layout-item s">
+                <div class="layout-item wow fadeInLeft">
                     <div class="layout-cell">
                         <a href="Solution.html" class="item">
                             <span>
@@ -484,6 +516,14 @@
 <script src="../plugin/swiper/swiper-3.4.0.jquery.min.js"></script>
 <script src="../plugin/swiper/swiper.animate.min.js"></script>
 <script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 80,
+        mobile: true,
+        live: true
+    });
+    wow.init();
     $(function(){
         $(".footer .layout-cell a").on("click",function(){
             $(this).addClass("active").parent().siblings().children().removeClass("active");
@@ -493,7 +533,7 @@
             lazyLoadingInPrevNext : true,
             lazyLoadingInPrevNextAmount : 1,
             autoplay : 3000,
-            speed:300
+            speed:4000
            
         });
         var mySwiper1 = new Swiper ('.sw-box1', {

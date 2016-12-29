@@ -360,12 +360,6 @@ html,body,.zkdj-page{
 }
 .dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner,.s-banner{
 	height: 157px;
-/*------banner动画延迟------*/
-	/*animation-delay: 2s;
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-o-animation-delay: 2s;
-	-ms-animation-delay: 2s;*/
 }
 .dp-banner img,.db-banner img,.er-banner img,.dk-banner img,.dc-banner img,.s-banner img{
 	width: 100%;
@@ -381,9 +375,6 @@ html,body,.zkdj-page{
 }
 .dp-content dl,.db-content dl,.dde-content dl,.er-content dl{
 	border-bottom: 1px solid #132748;
-	/*display: flex;
-	display: -webkit-flex;*/
-
 }
 .er-content dl:first-child{
 	border-top: 1px solid #132748;
@@ -683,7 +674,6 @@ html,body,.zkdj-page{
     width: 12%;
     height: 20px;
     padding: 0 1%;
-    //line-height: 20px;
     color: #fff;
     font-size: 13px;
     font-weight: normal;
@@ -728,7 +718,6 @@ html,body,.zkdj-page{
 	height:22px;
 	line-height: 16px;
 	padding-left: 18px;
-	//vertical-align: middle;
 }
 .dk-list dl dd{
 	display: inline-block;
