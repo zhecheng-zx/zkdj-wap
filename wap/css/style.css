@@ -121,10 +121,79 @@ html,body,.zkdj-page{
 .am-banner{
 	height: 135px;
 	width: 100%;
+	position: relative;
 }
-.am-banner img{
-	height: 135px;
-	width: 100%;
+.b5{
+   width:100%;
+   height:135px;
+}
+.b6,.b7,.b8,.b9,.b10{
+   width:100%;
+   height:158px;
+}
+.img10{
+	right:8%;
+	width:55%;
+    top:47px;
+    height:40.5px;
+}
+.img11{
+	right:10%;
+	width:40%;
+    top:35px;
+    height:69px;
+}
+.img12{
+	left:50%;
+	width: 60%;
+    top:46px;
+    height:73px;
+    margin-left: -30%;
+}
+.img13{
+	right:10%;
+	width: 50%;
+    top:46px;
+    height:60.5px;
+    margin-left: -96.5px;
+}
+.img14{
+	width: 74%;
+	left:50%;
+    top:28px;
+    height:83.5px;
+    margin-left: -37%;
+}
+.img15{
+	width: 28%;
+	left:50%;
+    top:50px;
+    height:23px;
+    margin-left: -14.8%;
+}
+.img16{
+	width: 28%;
+	top:62.5px;
+	right:22%;
+	height:21px;
+}
+.img17{
+	width: 50%;
+	top:46.5px;
+	right:10%;
+	height:69px;
+}
+.img18{
+	width:21%;
+	right:25%;
+	top:42.5px;
+	height:11px;
+}
+.img19{
+	width:38%;
+	right:16%;
+	top:91.5px;
+	height:12px;
 }
 .am-companymenu{
 	background: #fff;
@@ -360,14 +429,7 @@ html,body,.zkdj-page{
 }
 .dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner,.s-banner{
 	height: 157px;
-}
-.dp-banner img,.db-banner img,.er-banner img,.dk-banner img,.dc-banner img,.s-banner img{
-	width: 100%;
-    height: 158px;
-}
-.dde-banner img{
-    width: 100%;
-    height: 157px;
+	position: relative;
 }
 .dp-content,.db-content,.dde-content,.er-content{
 	background: #07090c;
