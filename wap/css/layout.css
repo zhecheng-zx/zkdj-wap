@@ -1,6 +1,9 @@
 .zkdj-page{
     position: relative;
 }
+.ohide{
+  overflow-x: hidden;
+}
 .index-header{
     position: fixed;
     top:0;
