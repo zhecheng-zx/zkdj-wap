@@ -458,7 +458,7 @@
                 <img src="../images/footerLogo.png" />
             </div>
             <div class="open-link">
-                <div class="circul">
+                <div class="circul wx">
                     <img src="../images/weixin.png" />
                 </div>
                 <div class="circul">
@@ -506,6 +506,22 @@
             </div>
         </div>
     </div>
+    <!-- 扫码弹层开始 -->
+    <div class="alertdiv">
+       <div class="alert-content">
+          <a class="alert-close"></a>
+          <div class="alert-title">
+            <h2 class="alert-tab on">军犬舆情</h2>
+            <h2 class="alert-tab">慧数科技</h2>
+          </div>         
+          <div class="alert-img">
+            <a href="javascript:void(0);" class="bg"><img src="../images/alert2.png"></a>
+            <a href="javascript:void(0);"><img src="../images/alert1.png"></a>
+          </div>
+
+       </div>
+    </div>
+    <!-- 扫码弹层结束 -->
 </div>
 
 <script src="../plugin/zepto.js"></script>
@@ -591,8 +607,34 @@
             $(this).addClass("active").siblings().removeClass("active");
             e.preventDefault();           
     })
-     
-
+    /*弹层*/
+    $(".wx").on("click",function(){
+       $(".alertdiv").show(500);
+        $("body").addClass("modal-open");
+    })
+    $(".alert-close").on("click",function(){
+        $(".alertdiv").hide(500);
+        $("body").removeClass("modal-open");
+    })
+    //点击nav切换扫码
+    $(".alert-title").on("click",".alert-tab",function(){ 
+         var idx=$(this).index(),
+             obj=$(".alert-img").find("a");
+         $(this).addClass("on").siblings().removeClass("on");
+         $(obj).eq(idx).addClass("bg").siblings().removeClass("bg")
+    })
+    //滑动切换扫码
+    new AlloyFinger(".alert-img", {
+    swipe: function (evt) {
+        if(evt.direction=="Left"){
+          $(".alert-title .alert-tab").eq(1).addClass("on").siblings().removeClass("on");
+          $(".alert-img a").eq(1).addClass("bg").siblings().removeClass("bg");
+        }else if(evt.direction=="Right"){
+          $(".alert-title .alert-tab").eq(0).addClass("on").siblings().removeClass("on");
+          $(".alert-img a").eq(0).addClass("bg").siblings().removeClass("bg");
+        }
+    }    
+});
 </script>
 </body>
 </html>

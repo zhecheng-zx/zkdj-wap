@@ -240,7 +240,7 @@
 }
 .footer .active span{color:#ffaa2f;}
 .footer-logo img{
-    width:102px;
+    width:126px;
     height:27px;
 }
 .swiper-pagination-bullet{
@@ -464,8 +464,8 @@
 .copyRight {text-align:center;background-color:#040507;}
 .copyRight .footer-logo{padding-top:126px;}
 .open-link {margin-top:15px;margin-bottom:20px;}
-.open-link .circul{display:inline-block;width:23px;height:23px;background-color:rgba(255,255,255,.1);border-radius:100%;text-align:center;}
-.open-link .circul img{width:50%;vertical-align: -webkit-baseline-middle;}
+.open-link .circul{display:inline-block;width:44px;height:44px;background-color:rgba(255,255,255,.1);border-radius:50%;text-align:center;margin:0 5px;}
+.open-link .circul img{/*width:50%;*/vertical-align: -webkit-baseline-middle;margin-top: 12px;}
 .customer .cicontwo{
   width:57px;
   height:57px;
@@ -536,4 +536,72 @@
     100%{
         margin-top: 0;
     }
+}
+/*扫码弹层*/
+.modal-open{
+  overflow: hidden;
+}
+.alertdiv{
+  display:none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,.67);
+  z-index: 99;
+}
+.alert-content{
+   background: url(../images/alertbg.png) no-repeat;
+   background-size:100% 100%;
+   width: 70%;
+   height: 302px;
+   position:fixed;
+   left:50%;
+   top:50%;
+   z-index: 2;
+   margin-left: -35%;
+   margin-top: -151px;
+   text-align: center;
+}
+.alert-img a{
+  display: none;
+}
+.alert-img a.bg{
+  display: block;
+}
+.alert-img a img{
+   width: 183px;
+   height: 183px;
+}
+.alert-title{
+   width: 70%;
+   height: 22px;
+   margin: 22px 0;
+   margin-left: 15%;
+   border-bottom: 1px solid #ccc;
+}
+.alert-tab{
+   display: inline-block;
+   width: 49%;
+   color: #ccc;
+   font-size: 11px;
+   line-height: 20px;
+}
+.alert-tab.on{
+   color: #ffb722;
+   border-bottom: 3px solid  #ffb722;
+}
+.alert-close{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background:url(../images/alert3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right:13px;
+  top:10px;
+}
+.alert-close:active{
+   opacity: .3;
 }
