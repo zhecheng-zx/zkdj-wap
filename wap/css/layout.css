@@ -19,9 +19,12 @@
     display: inline-block;
 }
 .index-header .logo img{
-    width:72px;
+    /*width:72px;
     height:17px;
-    margin-top: 14px;
+    margin-top: 14px;*/
+    width:90px;
+    height:22px;
+    margin-top: 11px;
 }
 .index-header .login-box{
     position: absolute;
@@ -243,8 +246,8 @@
 }
 .footer .active span{color:#ffaa2f;}
 .footer-logo img{
-    width:126px;
-    height:27px;
+    width:110.5px;
+    height:30px;
 }
 .swiper-pagination-bullet{
   background: #fff !important;
@@ -321,10 +324,10 @@
 .dogking-div dt span .i-bimg{
       display: inline-block;
       background: url(../images/i-bimg.png) no-repeat;
-      background-position:-2px -5px;
+      background-position:-12px -14px;
       background-size:cover;
-      width: 48px;
-      height: 33px;
+      width: 60px;
+      height: 45px;
       transform: rotate(-45deg);
      -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
@@ -332,34 +335,32 @@
      -ms-transform: rotate(-45deg);
  }
 .dogking-div dt span .i-bimg.bimg2{
-     background-position:-63px 0px;
-     width: 40px;
-     height: 42px;
+     background-position:-74px -6px;
+     width: 54px;
+     height: 50px;
  }
 .dogking-div dt span .i-bimg.bimg3{
-     background-position:-107px -2px;
-     width:48px;
-     height: 42px;
+     background-position:-123px -10px;
+     height: 48px;
  }
 .dogking-div dt span .i-bimg.bimg4{
-     background-position:-157px 1px;
-     width: 40px;
-     height: 42px;
+     background-position:-187px -1px;
+     width: 52px;
+     height: 50px;
  }
 .dogking-div dt span .i-bimg.bimg5{
-     background-position:-195px 0px;
-     width: 55px;
-     height: 40px;
+     background-position:-247px -4px;
+     width: 58px;
+     height: 50px;
  }
 .dogking-div dt span .i-bimg.bimg6{
-     background-position:-250px 2px;
-     width: 42px;
-     height: 40px;
+     background-position:-307px -4px;
+     height: 50px;
  }
 .dogking-div dt span .i-bimg.bimg7{
-     background-position:-308px 3px;
-     width: 38px;
-     height: 41px;
+     background-position:-358px -1px;
+     width: 58px;
+     height: 50px;
 
  }
 
@@ -409,7 +410,7 @@
     width:100%;
     height:40px;
     background:rgba(0,0,0,.6);
-    color:#ffffff;
+    color:rgba(255,255,255,1);
     text-align:center;
     line-height:40px;
     font-size:15px;
@@ -468,7 +469,7 @@
 .copyRight .footer-logo{padding-top:126px;}
 .open-link {margin-top:15px;margin-bottom:20px;}
 .open-link .circul{display:inline-block;width:44px;height:44px;background-color:rgba(255,255,255,.1);border-radius:50%;text-align:center;margin:0 5px;}
-.open-link .circul img{/*width:50%;*/vertical-align: -webkit-baseline-middle;margin-top: 12px;}
+.open-link .circul img{width: 24px;height:20px;vertical-align: -webkit-baseline-middle;margin-top: 12px;}
 .customer .cicontwo{
   width:57px;
   height:57px;

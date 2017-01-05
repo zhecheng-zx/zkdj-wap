@@ -1139,7 +1139,7 @@ html,body,.zkdj-page{
 	display: inline-block;
 	position: relative;
 }
-.history-img,.img4{
+.history-img{
 	display: inline-block;
 	background: url(../images/historybg.png) no-repeat;
 	background-size:176px 63px;
@@ -1153,7 +1153,7 @@ html,body,.zkdj-page{
 	text-align: center;
 	font-weight: normal;
 }
-.img2,.img5{
+.img2{
 	background-position:0 -2px ;
 }
 .img3{
