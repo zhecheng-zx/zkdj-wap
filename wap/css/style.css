@@ -66,8 +66,7 @@ html,body,.zkdj-page{
 	height: 24px;
 	line-height: 24px;
 	padding-left: 3%;
-	border:none;
-	
+	border:none;	
 }
 .radiodiv{
 	-webkit-flex:1;
@@ -92,17 +91,7 @@ html,body,.zkdj-page{
 
 }
 .ca-btn:hover{
-	width: 100%;
-	height: 37px;
-	line-height: 37px;
-	text-align: center;
-    font-size: 15px;
-    color: #fff;
     background: #f69912;
-    border:none;
-     margin: 20px 0 50px 0;
-    font-family: "微软雅黑";
-
 }
 .ca-formdiv form p:first-child{
 	position: relative;
@@ -416,15 +405,6 @@ html,body,.zkdj-page{
 	font-size: 0;
 }
 #back:hover{
-	background:url(../images/back.png) no-repeat;
-	width: 10px;
-	height: 15px;
-	background-size: cover;
-	position: absolute;
-	left: 5%;
-	top:0;
-	margin-top: 14px;
-	font-size: 0;
 	background-image: rgba(255,255,255,.5);
 }
 .dp-banner,.db-banner,.dde-banner,.er-banner,.dk-banner,.dc-banner,.s-banner{
@@ -443,7 +423,6 @@ html,body,.zkdj-page{
 }
 .dp-content dl dt,.db-content dl dt,.dde-content dl dt,.er-content dl dt{
 	display: inline-block;
-	/*width: 115px;	*/
 	width:40%;
 	text-align: center;
 	padding: 15px 10px 15px 10px;
@@ -456,25 +435,27 @@ html,body,.zkdj-page{
     width: 90px;
     margin-bottom:20px;
 }
+.db-content dl:nth-child(2) dt img{
+    margin-bottom:28px;
+}
 .dp-content dl:nth-child(2) dt img{
-    width: 78px;
-     margin-bottom:5px;
+    margin-bottom:5px;
 }
 .dde-content dl dt img{
     width: 88px;
     margin-bottom:2px;
 }
 .dde-content dl:nth-child(2) dt img{
-    width: 88px;
-    margin-bottom:15px;
+    margin-bottom:10px;
+}
+.dde-content dl:nth-child(4) dt img{
+    margin-bottom:-5px;
 }
 .dde-content dl:last-child dt img{
-    width: 88px;
     margin-bottom:15px;
 }
 .dp-content dl dd,.db-content dl dd{
 	display: inline-block;
-	/*width: 62%;*/
 	border-left: 1px solid #132748;
 	padding:21px 0% 23px 5%;
 }
@@ -486,15 +467,17 @@ html,body,.zkdj-page{
     width: 94px;
     margin-bottom:36px;
 }
+.er-content dl:nth-child(5) dt img{
+    width: 94px;
+    margin-bottom:12px;
+}
 .dde-content dl dd{
 	display: inline-block;
-	/*width: 62%;*/
 	border-left: 1px solid #132748;
 	padding:21px 0% 23px 3%;
 }
 .er-content dl dd{
     display: inline-block;
-	/*width: 62%;*/
 	border-left: 1px solid #132748;
 	padding:33px 0% 33px 3%;
 }
@@ -675,11 +658,7 @@ html,body,.zkdj-page{
 	font-weight: normal;
 }
 .dk-menu li h4:hover{
-	height: 25px;
-	line-height: 25px;
-	font-size: 16px;
 	color: #fbb03b;
-	font-weight: normal;
 }
 .dk-menu li p{
 	line-height: 20px;
@@ -1002,7 +981,6 @@ html,body,.zkdj-page{
 }
 .dc-list1,.dc-list2{
     animation-duration: 3s !important;
-    /*animation:infinite;*/
 }
 .dc-list1 dl{
 	text-align: left;	
