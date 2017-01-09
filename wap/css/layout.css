@@ -544,16 +544,16 @@
 }
 .alertdiv{
   display:none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  bottom: 0;
+  right: 0;
   background:rgba(0,0,0,.67);
   z-index: 99;
 }
 .alert-content{
-   background: url(../images/alertbg.png) no-repeat;
+   background: url(../images/alertbg.jpg) no-repeat;
    background-size:100% 100%;
    width: 70%;
    height: 302px;
