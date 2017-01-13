@@ -19,7 +19,7 @@
     <div class="index-header">
         <a href="index.html" class="logo"><img src="../images/logo2.png" alt="中科点击" /></a>
     </div>
-    <div class="index-content">
+    <div class="index-content overflow-y">
         <div class="sw-box">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -64,7 +64,7 @@
             <div class="swiper-dogking mt45 overflowHidden" style="padding-top: 20px;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                       <a href="javascript:void(0);">
+                       <a href="http://m.junquan.com.cn">
                            <dl class="dogking-div">
                                <dt>
                                    <span>
@@ -210,7 +210,7 @@
                 <p class="text-center en">BIG DATA solution</p>
                 <span class="line-bottom"></span>
             </div>
-            <div class="layout-box layout-row mt45" id="solutiondiv" >
+            <div class="layout-box layout-row mt45 overflow-y" id="solutiondiv" >
                 <div class="layout-item">
                     <div class="layout-cell wow fadeInLeft">
                          <a href="Solution.html" class="item">
@@ -445,7 +445,7 @@
                 <div class="circul wx">
                     <img src="../images/weixin.png" />
                 </div>
-                <div class="circul">
+                <div class="circul weibo">
                     <img src="../images/weibo.png" />
                 </div>
                 <div class="circul">
@@ -593,6 +593,9 @@
             $(this).addClass("active").siblings().removeClass("active");
             e.preventDefault();           
     })
+    $(".weibo").on("click",function(){
+         window.location.href='http://weibo.com/54yuqing';
+    })
     /*弹层*/
     $(".wx").on("click",function(){
        $(".alertdiv").show(500);
@@ -619,7 +622,8 @@
           $(".alert-title .alert-tab").eq(0).addClass("on").siblings().removeClass("on");
           $(".alert-img a").eq(0).addClass("bg").siblings().removeClass("bg");
         }
-    }    
+    } 
+
 });
 </script>
 </body>
