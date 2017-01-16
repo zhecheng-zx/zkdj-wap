@@ -67,3 +67,4 @@ a:hover, a:link, a:visited{text-decoration:none;}
 .mt45{margin-top:45px;}
 .overflowHidden{overflow: hidden;}
 .overflow-y{overflow-x: hidden;overflow-y: auto;}
+body,html{overflow-x: hidden;}
